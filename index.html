@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Old Gus' Recipe Book (OG-RB)</title>
+	<title>Old Gus' Roadmug Recipes (OG-RR)</title>
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://callmepartario.github.io/og-rb">
-	<meta property="og:title" content="Old Gus' Recipe Book (OG-RB)">
-	<meta property="og:description" content="An online reference tool for the home cook.">
+	<meta property="og:url" content="https://callmepartario.github.io/og-rr">
+	<meta property="og:title" content="Old Gus' Roadmug Recipes (OG-RR)">
+	<meta property="og:description" content="An online reference tool for the home bartender.">
 	<meta property="og:image" content="https://callmepartario.github.io/og-dhsrd/images/og.webp">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/og-rb.css">
+	<link rel="stylesheet" href="css/og-rr.css">
 	<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
@@ -19,7 +19,7 @@
 <body class="theme-light">
 <nav id="og-navbar" class="container-xxl navbar navbar-expand-md navbar-light theme-light sticky-top og-navbar">
 	<div class="container-xxl">
-		<a class="navbar-brand" href="#top">OG-RB</a>
+		<a class="navbar-brand" href="#top">OG-RR</a>
 		<div class="form-check form-switch ms-auto mt-2 me-2 float-end" aria-hidden="true">
 			<label class="form-check-label ms-3" for="lightSwitch">
 				<img class="og-icon img-light d-block" src="images/mode-sun.svg" alt="Light Mode">
@@ -27,26 +27,31 @@
 			</label>
 			<input class="form-check-input" type="checkbox" id="lightSwitch">
 		</div>
+		<div class="form-check form-switch ms-auto mt-2 me-2 float-end" aria-hidden="true">
+			<label class="form-check-label ms-3" for="unitSwitch">
+				<img class="og-icon og-oz" src="images/unit-oz.svg" alt="Imperial Units">
+				<img class="og-icon og-ml" src="images/unit-ml.svg" alt="Metric Units">
+			</label>
+			<input class="form-check-input" type="checkbox" id="unitSwitch">
+		</div>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
 			<ul class="navbar-nav">
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="og-navbar-eat-me" role="button" data-bs-toggle="dropdown" aria-expanded="false">Eat Me</a>
-					<ul class="dropdown-menu dropdown-menu-light theme-light" aria-labelledby="og-navbar-eat-me">
+					<a class="nav-link dropdown-toggle" href="#" id="og-navbar-pcs" role="button" data-bs-toggle="dropdown" aria-expanded="false">Drink Me</a>
+					<ul class="dropdown-menu dropdown-menu-light theme-light" aria-labelledby="og-navbar-pcs">
 						<li><a class="dropdown-item og-nav" href="#introduction">Introduction</a></li>
-						<li><a class="dropdown-item og-nav" href="#breads">Breads</a></li>
-						<li><a class="dropdown-item og-nav" href="#noodles">Noodles</a></li>
-						<li><a class="dropdown-item og-nav" href="#protein">Protein</a></li>
-						<li><a class="dropdown-item og-nav" href="#sweets">Sweets</a></li>
-						<li><a class="dropdown-item og-nav" href="#vegetables">Vegetables</a></li>
-						<li><a class="dropdown-item og-nav" href="#beverages">Beverages</a></li>
-						<li><a class="dropdown-item og-nav" href="#make-it-yourself">Make It Yourself</a></li>
+						<li><a class="dropdown-item og-nav" href="#whiskey">Whiskey</a></li>
+						<li><a class="dropdown-item og-nav" href="#gin">Gin</a></li>
+						<li><a class="dropdown-item og-nav" href="#rum">Rum</a></li>
+						<li><a class="dropdown-item og-nav" href="#sours">Sours</a></li>
+						<li><a class="dropdown-item og-nav" href="#syrups">Syrups and Solutions</a></li>
 					</ul>
 				</li>
 				<li class="nav-item">
-          			<a class="nav-link" href="https://callmepartario.github.io/og-rr/">Drink Me</a>
+          			<a class="nav-link" href="https://callmepartario.github.io/og-rb/">Eat Me</a>
         		</li>
 			</ul>
 		</div>
@@ -57,11 +62,11 @@
 <div class="theme-light">
 <h1 class="pt-2 text-center" id="top">
 	<span class="og-subtitle">Old Gus'</span>
-	<span class="og-title">Recipe Book</span>
+	<span class="og-title">Roadmug Recipes</span>
 </h1>
-<p class="small text-center">version 0.01f (2025-10-31)</p>
+<p class="small text-center">version 0.21d (2025-10-20)</p>
 <ul class="list-inline text-center">
-	<li class="list-inline-item"><a class="btn btn-light mt-1 mb-1 theme-light border text-white" href="https://github.com/callmepartario/og-rb">Github</a></li>
+	<li class="list-inline-item"><a class="btn btn-light mt-1 mb-1 theme-light border text-white" href="https://github.com/callmepartario/og-rr">Github</a></li>
 	<li class="list-inline-item"><a class="btn btn-light mt-1 mb-1 theme-light border text-white" href="https://ko-fi.com/oldgus">&#127864; Ko-fi</a></li>
 </ul>
 <hr>
@@ -72,1747 +77,1711 @@
 	<ul class="list-unstyled og-qr-compact">
 		<li><a href="#introduction">Introduction</a></li>
 	</ul>
-	<h3>Breads</h3>
+	<h3>Whiskey</h3>
 	<ul class="list-unstyled og-qr-compact">
-		<li><a href="#define-biscuits">Biscuits</a></li>
-		<li><a href="#define-boule">Boule</a></li>
-		<li><a href="#define-ciabatta">Ciabatta</a></li>
-		<li><a href="#define-ciabatta">Cornbread</a></li>
-		<li><a href="#define-dinner-rolls">Dinner Rolls</a></li>
-		<li><a href="#define-english-muffins">English Muffins</a></li>
-		<li><a href="#define-focaccia">Focaccia</a></li>
-		<li><a href="#define-naan">Naan</a></li>
-		<li><a href="#define-pan-de-cristal">Pan de Cristal</a></li>
-		<li><a href="#define-pizza-new-york">Pizza Dough, New York</a></li>
-		<li><a href="#define-pizza-pan">Pizza Dough, Pan</a></li>
-		<li><a href="#define-pretzels">Pretzels</a></li>
+		<li><a href="#define-black-manhattan">Black Manhattan</a></li>
+		<li><a href="#define-bobby-burns">Bobby Burns</a></li>
+		<li><a href="#define-brooklyn">Brooklyn</a></li>
+		<li><a href="#define-boyfriend-to-the-couple">Boyfriend to the Couple</a></li>
+		<li><a href="#define-godfather">Godfather</a></li>
+		<li><a href="#define-king-cohen">King Cohen</a></li>
+		<li><a href="#define-manhattan">Manhattan</a></li>
+		<li><a href="#define-mint-julep">Mint Julep</a></li>
+		<li><a href="#define-night-tripper">Night Tripper</a></li>
+		<li><a href="#define-old-97">Old '97</a></li>
+		<li><a href="#define-old-fashioned">Old Fashioned</a></li>
+		<li><a href="#define-piney-woods-toddy">Piney Woods Toddy</a></li>
+		<li><a href="#define-re-animator">Re-Animator</a></li>
+		<li><a href="#define-remember-the-maine">Remember the Maine</a></li>
+		<li><a href="#define-rob-roy">Rob Roy</a></li>
+		<li><a href="#define-rusty-nail">Rusty Nail</a></li>
+		<li><a href="#define-sazerac">Sazerac</a></li>
+		<li><a href="#define-sentimental-gentleman">Sentimental Gentleman</a></li>
+		<li><a href="#define-tipperary">Tipperary</a></li>
+		<li><a href="#define-toronto">Toronto</a></li>
+		<li><a href="#define-vieux-carre">Vieux Carré</a></li>
 	</ul>
-	<h3>Noodles</h3>
+	<h3>Gin</h3>
 	<ul class="list-unstyled og-qr-compact">
-		<li><a href="#define-glass-noodles-with-carmelized-pork">Glass Noodles with Carmelized Pork</a></li>
-		<li><a href="#define-san-francisco-style-garlic-noodles">San Francisco Style Garlic Noodles</a></li>
-		<li><a href="#define-spaghetti-and-meatballs">Spaghetti and Meatballs</a></li>
-		<li><a href="#define-spaetzle">Spaetzle</a></li>
+		<li><a href="#define-alpine-negroni">Alpine Negroni</a></li>
+		<li><a href="#define-bijou">Bijou</a></li>
+		<li><a href="#define-deep-blue-sea">Deep Blue Sea</a></li>
+		<li><a href="#define-gin-and-tonic">Gin and Tonic</a></li>
+		<li><a href="#define-martini">Martini</a></li>
+		<li><a href="#define-martinez">Martinez</a></li>
+		<li><a href="#define-negroni">Negroni</a></li>
 	</ul>
-	<h3>Protein</h3>
+	<h3>Rum</h3>
 	<ul class="list-unstyled og-qr-compact">
-		<li><a href="#define-caramel-pork-belly">Caramel Pork Belly</a></li>
-		<li><a href="#define-chicken-adobo">Chicken Adobo</a></li>
-		<li><a href="#define-chicken-wings">Chicken Wings</a></li>
-		<li><a href="#define-dashi-butter-chicken">Dashi Butter Chicken</a></li>
-		<li><a href="#define-fried-chicken">Fried Chicken</a></li>
-		<li><a href="#define-gambas-al-ajillo">Gambas Al Ajillo</a></li>
-		<li><a href="#define-honey-glazed-ham">Honey Glazed Ham</a></li>
-		<li><a href="#define-meatballs">Meatballs</a></li>
-		<li><a href="#define-osso-bucco-milanese">Osso Bucco Milanese</a></li>
-		<li><a href="#define-pan-seared-shrimp-with-peanuts-black-papper-and-lime">Pan-Seared Shrimp with Peanuts, Black Pepper, and Lime</a></li>
-		<li><a href="#define-peposo">Peposo</a></li>
-		<li><a href="#define-poulet-au-vinaigre">Poulet Au Vinaigre</a></li>
-		<li><a href="#define-salt-and-pepper-spare-ribs">Salt and Pepper Spare Ribs</a></li>
-		<li><a href="#define-shepherds-pie">Shepherd's Pie</a></li>
-		<li><a href="#define-shoyu-chicken">Shoyu Chicken</a></li>
-		<li><a href="#define-tamagoyaki">Tamagoyaki</a></li>
-		<li><a href="#define-tempura">Tempura</a></li>
+		<li><a href="#define-cuba-libre">Cuba Libre</a></li>
+		<li><a href="#define-cheerwine">Cheerwine</a></li>
+		<li><a href="#define-daiquiri">Daiquiri</a></li>
+		<li><a href="#define-el-presidente">El Presidente</a></li>
+		<li><a href="#define-hemingway-daiquiri">Hemingway Daiquiri</a></li>
+		<li><a href="#define-mojito">Mojito</a></li>
+		<li><a href="#define-rabo-de-gallo">Rabo de Galo</a></li>
 	</ul>
-	<h3>Sweets</h3>
+	<h3>Sours</h3>
 	<ul class="list-unstyled og-qr-compact">
-		<li><a href="#define-apple-crisp">Apple Crisp</a></li>
-		<li><a href="#define-burnt-basque-cheesecake">Burnt Basque Cheesecake</a></li>
-		<li><a href="#define-chili-chocolate-crinkle-cookies">Chili Chocolate Crinkle Cookies</a></li>
-		<li><a href="#define-chocolate-chip-cookies">Chocolate Chip Cookies</a></li>
-		<li><a href="#define-cinnamon-rolls">Cinnamon Rolls</a></li>
-		<li><a href="#define-creme-brulee">Crème Brûlée</a></li>
-		<li><a href="#define-crustless-brownie-pie">Crustless Brownie Pie</a></li>
-		<li><a href="#define-dutch-baby">Dutch Baby</a></li>
-		<li><a href="#define-oatmeal-cookies">Oatmeal Cookies</a></li>
-		<li><a href="#define-pancakes">Pancakes</a></li>
-		<li><a href="#define-pound-cake">Pound Cake</a></li>
-		<li><a href="#define-pumpkin-pie">Pumpkin Pie</a></li>
-		<li><a href="#define-skillet-cookie">Skillet Cookie</a></li>
+		<li><a href="#define-amaretto-sidecar">Amaretto Sidecar</a></li>
+		<li><a href="#define-amaretto-sour">Amaretto Sour</a></li>
+		<li><a href="#define-averna-sour">Averna Sour</a></li>
+		<li><a href="#define-aviation">Aviation</a></li>
+		<li><a href="#define-bees-knees">Bee's Knees</a></li>
+		<li><a href="#define-corpse-reviver-no-2">Corpse Reviver &numero;2</a></li>
+		<li><a href="#define-cucumber-elderflower-gin-smash">Cucumber-Elderflower Gin Smash</a></li>
+		<li><a href="#define-elderflower-martini">Elderflower Martini</a></li>
+		<li><a href="#define-french-gimlet">French Gimlet</a></li>
+		<li><a href="#define-gold-rush">Gold Rush</a></li>
+		<li><a href="#define-green-eyes">Green Eyes</a></li>
+		<li><a href="#define-gin-basil-smash">Gin-Basil Smash</a></li>
+		<li><a href="#define-haystack">Haystack</a></li>
+		<li><a href="#define-japanese-cocktail">Japanese Cocktail</a></li>
+		<li><a href="#define-juliet-and-romeo">Juliet &amp; Romeo</a></li>
+		<li><a href="#define-kentucky-flyer">Kentucky Flyer</a></li>
+		<li><a href="#define-kentucky-maid">Kentucky Maid</a></li>
+		<li><a href="#define-last-word">The Last Word</a></li>
+		<li><a href="#define-late-night-reviver">Late Night Reviver</a></li>
+		<li><a href="#define-mai-tai">Mai Tai</a></li>
+		<li><a href="#define-margarita">Margarita</a></li>
+		<li><a href="#define-margarita-de-pomelo">Margarita de Pomelo</a></li>
+		<li><a href="#define-midnight-stinger">Midnight Stinger</a></li>
+		<li><a href="#define-moonlight">Moonlight</a></li>
+		<li><a href="#define-nedry">Nedry</a></li>
+		<li><a href="#define-oaxacanite">Oaxacanite</a></li>
+		<li><a href="#define-pegu-club">Pegu Club</a></li>
+		<li><a href="#define-penicillin">Penicillin</a></li>
+		<li><a href="#define-queens-park-hotel-super-cocktail">Queen's Park Hotel Super Cocktail</a></li>
+		<li><a href="#define-satans-whiskers">Satan's Whiskers</a></li>
+		<li><a href="#define-scofflaw">Scofflaw</a></li>
+		<li><a href="#define-see-no-evil">See No Evil</a></li>
+		<li><a href="#define-sidecar">Sidecar</a></li>
+		<li><a href="#define-tommys-margarita">Tommy's Margarita</a></li>
+		<li><a href="#define-trinidad-sour">Trinidad Sour</a></li>
+		<li><a href="#define-whiskey-smash">Whiskey Smash</a></li>
+		<li><a href="#define-whiskey-daisy">Whiskey Daisy</a></li>
+		<li><a href="#define-whiskey-sour">Whiskey Sour</a></li>
+		<li><a href="#define-white-lady">White Lady</a></li>
 	</ul>
-	<h3>Vegetables</h3>
+	<h3>Syrups and Solutions</h3>
 	<ul class="list-unstyled og-qr-compact">
-		<li><a href="#define-butternut-squash-soup">Butternut Squash Soup</a></li>
-		<li><a href="#define-eggplant-parmesean">Eggplant Parmesean</a></li>
-		<li><a href="#define-sweet-potato-curry">Sweet Potato Curry</a></li>
-	</ul>
-	<h3>Beverages</h3>
-	<ul class="list-unstyled og-qr-compact">
-		<li><a href="#define-glogg">Glögg (Mulled Wine)</a></li>
-		<li><a href="#define-horchata">Horchata</a></li>
-	</ul>
-	<p class="small"><em>For cocktails, see <a href="https://callmepartario.github.io/og-rr/">Old Gus' Roadmug Recipes</a></em></p>
-	<h3>Make It Yourself</h3>
-	<ul class="list-unstyled og-qr-compact">
-		<li><a href="#define-baking-mix">Baking Mix</a></li>
-		<li><a href="#define-pernod-dressing">Pernod Dressing</a></li>
-		<li><a href="#define-wafu-dressing">Wafu Dressing</a></li>
-		<li><a href="#define-zaatar">Za'atar</a></li>
+		<li><a href="#define-simple-syrup">Simple Syrup</a></li>
+		<li><a href="#define-demerara-syrup">Demerara Syrup</a></li>
+		<li><a href="#define-ginger-syrup">Ginger Syrup</a></li>
+		<li><a href="#define-grenadine">Grenadine</a></li>
+		<li><a href="#define-honey-syrup">Honey Syrup</a></li>
+		<li><a href="#define-orgeat">Orgeat</a></li>
+		<li><a href="#define-spiced-demerara-syrup">Spiced Demerara Syrup</a></li>
+		<li><a href="#define-saline-solution">Saline Solution</a></li>
 	</ul>
 </div>
 <hr>
 
 <h2 id="introduction">Introduction</h2>
 <p class="lead">Welcome, reader&mdash;</p>
-<p>Right now, this is just a personal recipe book.</p>
+<p>Right now, this is just a personal recipe book. Still working on making it what it needs to be. If you don't already know how to read a cocktail recipe, this page won't be much use to you just yet.</p>
 <p class="lead">&mdash; Old Gus</p>
 <hr>
+<!--
+<h2>Using These Recipes</h2>
+<h3>Ingredients</h3>
+<dl>
+	<dt>Understanding the Listings</dt>
+	<dd><dd>
+</dl>
+<h3>Ingredients</h3>
+<dl>
+	<dt>Alcohol</dt>
+	<dd></dd>
+	<dt>Sugar and Syrup</dt>
+	<dd></dd>
+	<dt>Citrus</dt>
+	<dd></dd>
+	<dt>Other Ingredients</dt>
+	<dd></dd>
+</dl>
+<h3>Ice</h3>
+<dl>
+	<dt>Freezing</dt>
+	<dd></dd>
+	<dt>Carving</dt>
+	<dd></dd>
+	<dt>Storing</dt>
+	<dd></dd>
+</dl>
+<h3>Kit</h3>
+<dl>
+	<dt>Bar Mat</dt>
+	<dd></dd>
+	<dt>Mixing Glass</dt>
+	<dd></dd>
+	<dt>Muddler</dt>
+	<dd></dd>
+	<dt>Garnish Skewers</dt>
+	<dd></dd>
+	<dt>Shaker</dt>
+	<dd></dd>
+	<dt>Strainer</dt>
+	<dd></dd>
+	<dt>Peeler</dt>
+	<dd></dd>
+	<dt>Fine Mesh Strainer</dt>
+	<dd></dd>
+	<dt>Paring Knife</dt>
+	<dd></dd>
+	<dt>Juicer</dt>
+	<dd></dd>
+	<dt>Atomizer</dt>
+	<dd></dd>
+</dl>
+<h3>Sugar</h3>
+<dl>
+	<dt>Raw Sugar</dt>
+	<dd></dd>
+	<dt>Sugar Syrup</dt>
+	<dd></dd>
+	<dt>Water Ratios</dt>
+	<dd></dd>
+</dl>
+<h3>Stirring</h3>
+<dl>
+	<dt>Chilling and Dilution</dt>
+	<dd></dd>
+	<dt>Spoon Position</dt>
+	<dd></dd>
+	<dt>Ice Slumping</dt>
+	<dd></dd>
+</dl>
+<h3>Shaking</h3>
+<dl>
+	<dt>Wet Shake</dt>
+	<dd>With ice.</dd>
+	<dt>Dry Shake</dt>
+	<dd>Without ice.</dd>
+	<dt>Sealing and Unsealing</dt>
+	<dd></dd>
+</dl>
+<h3>Glassware</h3>
+<dl>
+	<dt>Lowball</dt>
+	<dd></dd>
+	<dt>Highball</dt>
+	<dd></dd>
+	<dt>Up</dt>
+	<dd></dd>
+	<dt>Other Glassware</dt>
+	<dd></dd>
+</dl>
+<h3>Finishing</h3>
+<dl>
+	<dt>Garnishes</dt>
+	<dd></dd>
+	<dt>Zest</dt>
+	<dd></dd>
+	<dt>Cocktail Cherries</dt>
+	<dd></dd>
+	<dt>Herbs</dt>
+	<dd></dd>
+	<dt>Lengthening</dt>
+	<dd></dd>
+</dl>
+<hr>
+-->
 
-<h2 id="breads">Breads</h2>
+<h2 id="whiskey">Whiskey</h2>
 <div class="row">
-	<div class="col-12 col-md-6">
-		<div id="define-biscuits">
-			<h3>Biscuits</h3>
-			<h4>Dry Ingredients</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-black-manhattan">
+			<h3>Black Manhattan</h3>
 			<ul class="ps-3">
-				<li>225 g (1 cup) unsalted butter, frozen, grated (use two sticks)</li>
-				<li>285 g (2 cups) all-purpose flour</li>
-				<li>1 tablespoon baking powder</li>
-				<li>¼ teaspoon baking soda</li>
-				<li>1 teaspoon kosher salt</li>
-				<li class="og-do">Mix and place in refrigerator until ready to use.</li>
-			</ul>
-			<h4>Wet Ingredients</h4>
-			<ul class="ps-3">
-				<li>120 mL (1 cup) cold whole milk</li>
-				<li>85 g (⅓ cup) whole milk Greek-style yogurt</li>
-				<li class="og-do">Whisk together and place in refrigerator until ready to use.</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-    			<li>Preheat oven to 425&deg; F.</li>
-    			<li>Mix wet and dry ingredients and fold into a shaggy dough.</li>
-				<li>Turn out dough onto floured surface and knead 4&ndash;5 times, until dough holds together. Flatten into a rough 4-inch square.</li>
-    			<li>Using a rolling pin, roll dough into a 12-inch square&mdash;flour generously to prevent sticking.</li>
-				<li>Using a bench scraper, laundry fold into thirds across both dimensions into a 4-inch square. Roll the square out into a 12-inch square again. Starting at the bottom edge, roll dough up into a tight log. Lay log seam-side down, then press into a rough 3&times;12-inch rectangle. Cut into four even pieces, then cut each diagonally into two triangles.</li>
-				<li>Transfer to parchment-lined baking sheet and brush 3 tablespoons melted butter over tops.</li>
-				<li>Bake at 425&deg; F for 16&ndash;20 minutes, until golden brown and puffed.</li>
-				<li>Remove and brush the tops with more melted butter. Allow to cool slightly before serving.</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> rye</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> Averna</li>
+				<li>2 dashes Angostura bitters</li>
+				<li>2 dashes orange bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">cocktail cherry for garnish</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-boule">
-			<h3>Boule</h3>
-			<h4>Poolish</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-bobby-burns">
+			<h3>Bobby Burns</h3>
 			<ul class="ps-3">
-				<li>150 g water (room temperature)</li>
-				<li>Small pinch yeast (30&ndash;50 granules)</li>
-				<li>150 g bread flour</li>
-				<li class="og-do">Mix and cover 4&ndash;24 hours.</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> scotch</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> sweet vermouth</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> Drambuie</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">lemon zest and cocktail cherry for garnish</li>
 			</ul>
-			<h4>Dough</h4>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>You can subtitute Bénédictine for Drambuie.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-brooklyn">
+			<h3>Brooklyn</h3>
 			<ul class="ps-3">
-				<li>250 g warm water</li>
-				<li>2 g instant yeast</li>
-				<li class="og-do">Dissolve poolish and yeast into water.</li>
-				<li>12 g salt</li>
-				<li>400 g bread flour</li>
-				<li>50 g whole wheat (or 9-grain) flour</li>
-				<li class="og-do">Mix, cover, and rest 30 minutes.</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> rye</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> dry vermouth</li>
+				<li>1 barspoon maraschino liqueur</li>
+				<li>1 barspoon Amer Picon</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">lemon zest and cocktail cherry for garnish</li>
 			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Bowl fold (8 times), cover, and rest 30 minutes.</li>
-				<li>Bowl fold (8 times), cover, and rest 1 hour.</li>
-				<li>Turn out onto floured work surface. Stretch and fold (8 times) to form a ball. Place seam centered on the bottom of the ball and gently roll to close. Place dough&mdash;seam side up&mdash;into proofing vessel (tuck seams if needed).</li>
-				<li>Preheat oven to 475&deg; F (with dutch oven inside), cover dough and rest 1 hour.</li>
-				<li>Flour dutch oven surface and top of loaf. Lower loaf seam side down into dutch oven with parchment paper. Score top with scissors.</li>
-				<li>Place lid on, and bake 20 minutes at 475&deg; F.</li>
-				<li>Remove lid, and bake 20&ndash;25 minutes.</li>
-				<li>Transfer to wire rack to cool.</li>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>If you can't find Amer Picon, subtitute Averna or 3 dashes Angostura bitters.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-boyfriend-to-the-couple">
+			<h3>Boyfriend to the Couple</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> bourbon</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> Averna</li>
+				<li>4 dashes Angostura bitters</li>
+				<li>1 dash orange bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">lemon zest for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>A while back I saw someone else invent this drink during a winter ice storm and had named it the "Busted Pipe". Whatever you call it&mdash;a personal favorite.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-godfather">
+			<h3>Godfather</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> scotch</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> amaretto</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve up or on ice in lowball</li>
+				<li class="og-do">lemon zest for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>You don't need a fancy scotch to have a good time&mdash;blended will do just fine in this cocktail.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-king-cohen">
+			<h3>King Cohen</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> scotch </li>
+				<li>1 barspoon fernet</li>
+				<li>½ barspoon <a href="#define-simple-syrup">simple syrup</a> (1:1)</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">lime wedge for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>The lime garnish is unusual here, but trust!</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-manhattan">
+			<h3>Manhattan</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> rye</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> sweet vermouth</li>
+				<li>2 dashes Angostura bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">1&ndash;3 cocktail cherries for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p><strong>Perfect Manhattan:</strong> Use only <span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> sweet vermouth; add <span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> dry vermouth.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-mint-julep">
+			<h3>Mint Julep</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> bourbon</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> demerara syrup</li>
+				<li>6&ndash;8 mint leaves</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve on crushed ice in julep cup</li>
+				<li class="og-do">top with additional crushed ice</li>
+				<li class="og-do">mint sprig for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p><strong>Prescription Julep:</strong> Omit bourbon, add <span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> cognac and <span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> rye</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-night-tripper">
+			<h3>Night Tripper</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1¾ oz.</span><span class="og-ml">100 mL</span> bourbon</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> Averna</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> Strega</li>
+				<li>2 dashes Peychaud's bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve up</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>You can substitue Yellow Chartreuse for Strega (if you can find it).</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-old-97">
+			<h3>Old '97</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">90 mL</span> bourbon</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> <a href="#define-simple-syrup">simple syrup</a> (1:1)</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> maraschino liqueur</li>
+				<li>2 dashes Angostura bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">cocktail cherry for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>What Cherry Coke wishes it could be.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-old-fashioned">
+			<h3>Old Fashioned</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> bourbon</li>
+				<li>1 barspoon demerara sugar (or one sugar cube, or <span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> <a href="#define-simple-syrup">simple syrup</a>)</li>
+				<li>4 dashes Angostura bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">orange zest and cocktail cherry for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Substitute any spirit, bitters or sugar you like. Choose a sugar and garnishe to complement the spirit&mdash;for example, rye likes lemon zest, mezcal prefers agave syrup and grapefruit zest.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-piney-woods-toddy">
+			<h3>Piney Woods Toddy</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> bourbon</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> Calvados</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> <a href="#define-spiced-demerara-syrup">spiced demerara syrup</a></li>
+				<li>4 dashes Angostura bitters</li>
+				<li>2 dashes chocolate bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve on ice in smoked lowball</li>
+				<li class="og-do">flamed orange oil and a smoked cinnamon stick for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Stay warm on a cold winter's night.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-re-animator">
+			<h3>Re-Animator</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> rye</li>
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> Amaro Nonino</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">lemon zest for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Amaro Nonino is wonderful all on its own, but the bite of a spicy rye lets you enjoy its smooth aftertaste even more.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-remember-the-maine">
+			<h3>Remember the Maine</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> rye</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> sweet vermouth</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> cherry heering liqueur</li>
+				<li class="og-do">absinthe rinse</li>
+				<li class="og-do">lemon zest and cocktail cherry for garnish&mdash;discard peel</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p><strong>Variant:</strong> Use <span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> rye</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-rob-roy">
+			<h3>Rob Roy</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> scotch</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> sweet vermouth</li>
+				<li>2 dashes Angostura bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">orange zest and cocktail cherry for garnish</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-ciabatta">
-			<h3>Ciabatta</h3>
-			<h4>Biga</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-rusty-nail">
+			<h3>Rusty Nail</h3>
 			<ul class="ps-3">
-				<li>170 g water (cool)</li>
-				<li>226 g bread flour</li>
-				<li>⅛ teaspoon instant yeast or active dry yeast</li>
-				<li class="og-do">Cover overnight.</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> scotch</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> Drambuie</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">lemon zest for garnish</li>
 			</ul>
-			<h4>Dough</h4>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>I prefer a 2:1 ratio of scotch to Drambuie, but some people like their nail sweeter, with an equal ratio.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-sazerac">
+			<h3>Sazerac</h3>
 			<ul class="ps-3">
-				<li>170 g water (lukewarm)</li>
-				<li class="og-do">Dissolve biga into water.</li>
-				<li>226 g bread flour</li>
-				<li>1 teaspoon instant yeast or active dry yeast</li>
-				<li>9 g salt</li>
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> rye</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> cognac </li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">15 mL</span> <a href="#define-simple-syrup">simple syrup</a> (1.5:1)</li>
+				<li>3 dashes Peychaud's bitters</li>
+				<li>1 dash Angostura bitters</li>
+				<li class="og-do">absinthe rinse</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve in lowball</li>
+				<li class="og-do">lemon zest for garnish</li>
 			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Combine and mix until elatic and sticky.</li>
-				<li>Cover and rest 1 hour.</li>
-				<li>Bowl fold.</li>
-				<li>Cover and rest 1 hour.</li>
-				<li>Turn out onto well-floured surface.</li>
-				<li>Stretch to 8&times;10-inch rectangle, then cut into two even pieces.</li>
-				<li>Cover and rest 1 hour on floured surface.</li>
-				<li>Preheat oven to 500&deg; F.</li>
-				<li>Launch onto stone.</li>
-				<li>Lower oven temp to 425&deg; F.</li>
-				<li>Steam bake 25 minutes.</li>
-				<li>Crack oven and let cool inside with residual heat.</li>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>A <span class="og-oz">4 oz.</span><span class="og-ml">120 mL</span> serving glass with no ice is ideal&mdash;no ice means no additional dilution.</p>
+				<p><strong>Variant:</strong> Omit rye; add <span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> cognac</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-sentimental-gentleman">
+			<h3>Sentimental Gentleman</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> scotch</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> Bénédictine</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> walnut liqueur</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">lemon zest for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Walnut liqueurs make excellent digestif on their own, and this drink inherits that properly&mdash;the perfect dessert beverage.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-tipperary">
+			<h3>Tipperary</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> irish whisky</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> sweet vermouth</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> Green Chartreuse</li>
+				<li>2 dashes Angostura bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">orange zest for garnish</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-cornbread">
-			<h3>Cornbread</h3>
-			<h4>Skillet</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-toronto">
+			<h3>Toronto</h3>
 			<ul class="ps-3">
-				<li>10-inch Cast Iron Skillet</li>
-				<li>¼ cup (50 g) bacon fat</li>
-				<li class="og-do">Distribute fat onto skillet and pre-heat it to 450&deg; F.</li>
-			</ul>
-			<h4>Batter</h4>
-			<ul class="ps-3">
-				<li>245 g whole cornmeal</li>
-				<li>60 g all-purpose flour</li>
-				<li>½ teaspoon baking powder</li>
-				<li>½ teaspoon baking soda</li>
-				<li>¼ teaspoon table salt</li>
-				<li>1 large egg</li>
-				<li>1½ cups (340g) buttermilk, well shaken</li>
-				<li class="og-do">Pour into hot skillet and bake 25 minutes.</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> rye</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> fernet</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> maple syrup</li>
+				<li>2 dashes Angostura bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">orange zest for garnish</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-dinner-rolls">
-			<h3>Dinner Rolls</h3>
-			<h4>Tangzhong</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-vieux-carre">
+			<h3>Vieux Carré</h3>
 			<ul class="ps-3">
-				<li>⅓ cup of flour (43 g)</li>
-				<li>½ cup milk (113 g)</li>
-				<li>½ cup water (113 g)</li>
-				<li>Add flour to saucepan</li>
-				<li>Whisk milk and water to flour</li>
-				<li class="og-do">Continue whisking over medium heat until thick and smooth.</li>
-				<li class="og-do">Transfer to stand mixer bowl and let cool.</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> rye whiskey</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> cognac</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> sweet vermouth</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> Bénédictine</li>
+				<li>2 dashes Peychaud's bitters</li>
+				<li>2 dashes Angostura bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve in lowball</li>
+				<li class="og-do">lemon zest for garnish</li>
 			</ul>
-			<h4>Dough</h4>
-			<ul class="ps-3">
-				<li>2 tablespoons whole milk (29 g)</li>
-				<li>½ tablespoon active dry yeast (5 g)</li>
-				<li>2 large eggs</li>
-				<li>1 cup sour cream (232 g), at room temperature</li>
-				<li>¼ cup sugar (50 g)</li>
-				<li class="og-do">Mix until combined.</li>
-				<li>650 g bread flour</li>
-				<li>4 teaspoons Diamond Crystal kosher salt (12 g)</li>
-				<li>4 tablespoons unsalted butter (56 g), cut into pieces</li>
-				<li>Mix on low speed for 5 minutes (pause to scrap dough off hook and sides of mixing bowl).</li>
-				<li>Turn dough out and form a ball.</li>
-				<li class="og-do">Cover and let rise until doubled, 1&ndash;2 hours at room temp.</li>
-				<li class="og-do"><strong>Optional:</strong> Cold ferment overnight.</li>
-			</ul>
-			<h4>Prepare Pan</h4>
-			<ul class="ps-3">
-				<li>9x13" metal pan</li>
-				<li>2 tablespoons unsalted butter (28 g)</li>
-				<li class="og-do">Coat pan with butter.</li>
-			</ul>
-			<h4>Shaping</h4>
-			<ul class="ps-3 og-do">
-				<li>½ cup very finely chopped chives (20 g)</li>
-				<li>Punch dough down, rull into 12-inch square.</li>
-				<li>Distribute chives over surface of square.</li>
-				<li>Fold dough, rolling a spiral over itself.</li>
-				<li>Roll out into 16-inch &times; 6-inch shape</li>
-				<li>Divide into 8 &times; 3 segments (24 rolls)</li>
-				<li>Roll into balls and place into pan, seam-side down into pan.</li>
-				<li>Cover and let rise, 45&ndash;60 minutes.</li>
-			</ul>
-			<h4>Top and Bake</h4>
-			<ul class="ps-3">
-				<li>Egg wash (1 large egg, beaten with 2 tablespoons water and pinch salt)</li>
-				<li>2 tablespoons melted butter (28 g)</li>
-				<li class="og-do">Brush egg wash onto top of rolls.</li>
-				<li class="og-do">Finish with freshly ground black pepper and flaky salt.</li>
-				<li class="og-do">Bake 25&ndash;30 minutes on center rack at 375&deg; F (rotate halfway through bake).</li>
-				<li class="og-do">Brush butter on top and let cool 10 minutes in the pan.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-english-muffins">
-			<h3>English Muffins</h3>
-			<h4>Dough</h4>
-			<ul class="ps-3">
-				<li>1½ cups whole milk (360 g)</li>
-				<li>2 tablespoons unsalted butter (28 g)</li>
-				<li>2 tablespoons honey (43 g)</li>
-				<li>1 teaspoon active dry yeast (3 g)</li>
-				<li>360 g bread flour</li>
-				<li>35 g whole wheat flour</li>
-				<li>6 g kosher salt</li>
-				<li>Neutral oil, for the bowl and baking sheet</li>
-				<li>Cornmeal, for dusting</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Scald milk and dissolve in butter, let return to 100&deg; F.</li>
-				<li>Proof yeast in 2 tablespoons milk.</li>
-				<li>Pour milk and yeast and honey into dry ingredients.</li>
-				<li>Mix in stand mixer (dough hook), scrape down.</li>
-				<li>Mix on speed 4 for 8&ndash;10 minutes.</li>
-				<li>Oil proofing vessel and transfer dough in (will be sticky but with some structure, make sure it moves freely in the bowl).</li>
-				<li>Cover and let rise (about 2 hours).</li>
-				<li>Prepare half baking sheet lined with oiled parchment paper, then generously dust parchment with cornmeal.</li>
-				<li>Oil a second piece of parchment to top later.</li>
-				<li>Loosen dough and turn down onto cormealed baking sheet, pat down into a single layer ½-inch thick (use oiled top sheet to help press evenly).</li>
-				<li>Chill for 12 hours.</li>
-			</ul>
-			<h4>Cook</h4>
-			<ul class="ps-3 og-do">
-				<li>Remove dough and cut with 3" circle cutter while dough is still cold (press, then twist).</li>
-				<li>Transfer immediately onto cold griddle (top with additional cornmeal before flipping).</li>
-				<li>Cook 5&ndash;7 minutes low heat until the bottom is golden brown (rotate pan for even heat, but don't touch muffins)&mdash;yeasty smell, surface will become matte instead of shiny (like a pancake, can be touched without sticking).</li>
-				<li>Flip to finish and get color.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-focaccia">
-			<h3>Focaccia</h3>
-			<h4>Poolish</h4>
-			<ul class="ps-3">
-				<li>500 g bread flour</li>
-				<li>¼ teaspoon active dry yeast</li>
-				<li>12 g kosher or sea salt</li>
-				<li>4 teaspoons extra-virgin olive oil, or more as needed</li>
-				<li>400 g room-temperature water</li>
-				<li class="og-do">Combine and let sit covered for 12&ndash;14 hours.</li>
-			</ul>
-			<h4>Rise</h4>
-			<ul class="og-do">
-				<li>Stretch to pan.</li>
-				<li>Laundry fold.</li>
-				<li>Rest 1 hour.</li>
-				<li>Repeat (3 times).</li>
-			</ul>
-			<h4>Top and Bake</h4>
-			<ul>
-				<li class="og-do">Stretch to pan.</li>
-				<li class="og-do">Rest 2 hours.</li>
-				<li class="og-do">Perforate surface.</li>
-				<li>1 tablespoon minced fresh rosemary</li>
-				<li>1 tablespoon flaky sea salt</li>
-				<li class="og-do">Bake 30 minutes at 425&deg; F.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-naan">
-			<h3>Naan</h3>
-			<ul class="ps-3">
-				<li>1½ cups (180 g) bread flour, or all-purpose flour</li>
-				<li>½ teaspoon kosher salt</li>
-				<li>2 teaspoons baking powder</li>
-				<li>1 cup plain Greek-style yogurt</li>
-				<li>4 cloves crushed garlic</li>
-				<li>½ cup thinly sliced green onions</li>
-				<li>2 tablespoons melted butter for brushing cooked naan</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-pan-de-cristal">
-			<h3>Pan de Cristal</h3>
-			<h4>Dough</h4>
-			<ul class="ps-3">
-				<li>500 g bread flour</li>
-				<li>500 g water</li>
-				<li>2.5 g instant yeast</li>
-				<li>10 g table salt</li>
-				<li>15 g olive oil (for the pan)</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>In a medium bowl, mix the water, flour, yeast, and salt until thoroughly combined and homogenous.</li>
-				<li>Oil a two-quart rectangular baking dish (10&times7-inch, or 8&times;9-inch) with the olive oil.</li>
-				<li>Pour the dough into the dish. Check the dough's temperature by inserting a digital thermometer into the center. If it's less than 72&deg;F, move the dish to a warmer spot.</li>
-				<li>Cover the dish and allow the dough to rest 20 minutes.</li>
-				<li>Bowl fold: Use your wet hands to grab a section of dough from one side, lift it up, then press it down into the middle. Repeat this eight to 12 times.</li>
-				<li>Cover the dish and allow the dough to rest 20 minutes.</li>
-				<li>Coil Fold: With wet hands, reach under the dough and stretch the middle upward until the dough releases from the dish. Roll it forward off your hands, allowing it to fold over (or "coil") on itself. Continue until the dough feels like it won't stretch and elongate easily, usually four to five times initially.</li>
-				<li>Rest and Repeat: Cover the dish and allow the dough to rest 20 minutes before coil folding again. After the fourth coil fold, allow the dough to rest 80 minutes.</li>
-				<li>Flour top of dough, then gently turn it out onto a heavily floured surface. Flour dough well, then divide into four pieces on parchment paper.</li>
-				<li>Rest uncovered for 2 hours, and preheat oven to 475&deg; F. Look for a few large bubbles on the surface of each loaf before baking.</li>
-				<li>Bake 15 minutes, then transfer toward the top of the oven for an additional 10&ndash;15 minutes.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-pizza-new-york">
-			<h3>Pizza Dough, New York</h3>
-			<h4>Dough</h4>
-			<ul class="ps-3">
-				<li>500 g all-purpose flour</li>
-				<li>12.5 g salt</li>
-				<li>2 g instant yeast</li>
-				<li>5 g sugar</li>
-				<li>20 g olive oil</li>
-				<li>300 g water at 90&deg; F (32&deg; C)</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Mix in stand mixer for 2-4 minutes, food processor for 30&ndash;40 seconds (gradually adding water), or by hand for 4&ndash;5 minutes..</li>
-				<li>Rest 15 minutes.</li>
-				<li>Mix again, until satin textured.</li>
-				<li>Cover in round, olive oiled container and rest 2 hours (or begin cold ferment).</li>
-				<li>Final shaping, rest another 2 hours.</li>
-				<li>Stretch, top, bake at 550&deg; F.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-pizza-pan">
-			<h3>Pizza Dough, Pan</h3>
-			<h4>Two 10-inch Pizzas</h4>
-			<ul class="ps-3">
-				<li>400 g bread flour</li>
-				<li>10 g kosher salt</li>
-				<li>4 g instant yeast</li>
-				<li>275 g water</li>
-				<li>8 g extra-virgin olive oil</li>
-			</ul>
-			<h4>One 10-inch and One 12-inch Pizza</h4>
-			<ul class="ps-3">
-				<li>500 g bread flour</li>
-				<li>12 g kosher salt</li>
-				<li>5 g instant yeast</li>
-				<li>345 g water</li>
-				<li>10 g extra-virgin olive oil</li>
-			</ul>
-			<h4>Two 12-inch Pizzas</h4>
-			<ul class="ps-3">
-				<li>600 g bread flour</li>
-				<li>15 g kosher salt</li>
-				<li>6 g instant yeast</li>
-				<li>415 g water</li>
-				<li>12 g extra-virgin olive oil</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Mix and autolyse 8&ndash;24 hours.</li>
-				<li>Divide, ball, and proof for at least 2 hours in cast-iron pan (or begin cold ferment).</li>
-				<li>Stretch, top, and bake at 550&deg; F.</li>
-				<li>Finish browning crust on stovetop.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-pretzels">
-			<h3>Pretzels</h3>
-			<h4>Dough</h4>
-			<ul class="ps-3">
-				<li>300 g bread flour</li>
-				<li>6 g salt</li>
-				<li>7 g instant yeast</li>
-				<li>1 teaspoon granulated sugar</li>
-				<li>198&ndash;227 mL warm water (more in the winter, less in the summer)</li>
-				<li class="og-do">Mix and knead until elastic (4&ndash;5 minutes in a stand mixer).</li>
-				<li class="og-do">Rest 30 minutes (and begin preheating oven to 475&deg; F (245&deg; C)).</li>
-			</ul>
-			<h4>Coating</h4>
-			<ul class="ps-3">
-				<li>3 tablespoons (43 g) baking soda, reduced to washing soda (on stovetop)</li>
-				<li>225 g water, boiling</li>
-				<li class="og-do">In 9-inch square glass pan, combine and stir to dissolve.</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>On well-oiled work surface, divide risen dough into 6&ndash;8 pieces.</li>
-				<li>Ball and let rest 5 minutes.</li>
-				<li>Shape.</li>
-				<li>Cold ferment (optional).</li>
-				<li>Dunk in coating for 10&ndash;20 seconds per side (use gloves if you have sensitive skin, and don't touch your eyes).</li>
-				<li>Top with salt.</li>
-				<li>Bake 9 minutes at 475&deg; F (245&deg; C).</li>
-				<li>Brush on melted butter.</li>
-			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>A <span class="og-oz">4 oz.</span><span class="og-ml">120 mL</span> serving glass with no ice is ideal&mdash;no ice means no additional dilution.</p>
+			</div>
 		</div>
 	</div>
 </div>
 <hr>
 
-<h2 id="noodles">Noodles</h2>
+<h2 id="gin">Gin</h2>
 <div class="row">
-	<div class="col-12 col-md-6">
-		<div id="define-glass-noodles-with-carmelized-pork">
-			<h3>Glass Noodles with Carmelized Pork</h3>
-			<h4>Prep Noodles</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-alpine-negroni">
+			<h3>Alpine Negroni</h3>
 			<ul class="ps-3">
-				<li>4&ndash;5 oz. (115&ndash;140 g) mung bean glass noodles (mung bean vermicelli)</li>
-				<li>Soak 10 minutes, then drain</li>
-			</ul>
-			<h4>Sear Pork</h4>
-			<ul class="ps-3">
-				<li>2 tablespoons vegetable oil</li>
-				<li>6 oz. (170 g) ground pork</li>
-				<li>1 teaspoon white sugar</li>
-				<li>3 garlic cloves, finely minced</li>
-				<li>1 tablespoon finely minced ginger</li>
-				<li>2 tablespoons spicy fermented bean sauce plus ¼ teaspoon ground Sichuan pepper (or just use 2 tablespoons gojujang for both ingredients)</li>
-			</ul>
-			<h4>Add Liquid and Noodles</h4>
-			<ul class="ps-3">
-				<li>2 teaspoons soy sauce</li>
-				<li>2 cups (475 mL) chicken stock</li>
-				<li>Plate and Garnish</li>
-				<li>⅓ cup sliced green onions</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> dry gin</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> Suze</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> dry vermouth</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> génépy</li>
+				<li>1 barspoon white crème de menthe</li>
+				<li>3 dashes lemon bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">rosemary sprig for garnish</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-san-francisco-style-garlic-noodles">
-			<h3>San Francisco Style Garlic Noodles</h3>
-			<h4>Sauce</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-bijou">
+			<h3>Bijou</h3>
 			<ul class="ps-3">
-				<li>1½ tablespoons soy sauce</li>
-				<li>1 tablespoon oyster sauce</li>
-				<li>1½ teaspoons Worcestershire sauce</li>
-				<li>1 teaspoon Asian fish sauce</li>
-				<li>¼ teaspoon sesame oil</li>
-				<li>pinch of cayenne pepper</li>
+				<li>1<span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> dry gin</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> sweet vermouth</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> Green Chartreuse</li>
+				<li>1 dash orange bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">lemon zest and cocktail cherry for garnish</li>
 			</ul>
-			<h4>Pasta</h4>
+		</div>
+	</div><div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-gin-and-tonic">
+			<h3>Gin and Tonic</h3>
 			<ul class="ps-3">
-				<li>170 g dry egg noodles, spaghetti, bucatini</li>
-				<li>4 tablespoons unsalted butter</li>
-				<li>8 cloves finely minced garlic</li>
-				<li>¼ cup finely grated Parmigiano-Reggiano</li>
-				<li class="og-do">Ganish with thinly sliced scallions and red chili flakes to taste</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> gin</li>
+				<li>juice of ½ a lime</li>
+				<li class="og-do">add together in highball</li>
+				<li class="og-do">add ice and lengthen with 4 oz. tonic water</li>
+				<li class="og-do">angostura bitters (floated or aerosolized) and lime wheel for garnish </li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p><strong>Variant:</strong> Omit lime juice and Angostura bitters. Serve in a wide, stemless wine glass with thinly sliced lemon and lime wheels, whole black peppercorns, whole cardamom pods, and fennel seeds.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-deep-blue-sea">
+			<h3>Deep Blue Sea</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> dry gin</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> dry blanc vermouth</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> crème de violette</li>
+				<li>1 dash orange bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">lemon zest for garnish</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-spaghetti-and-meatballs">
-			<h3>Spaghetti and Meatballs</h3>
-			<h4>Meatballs</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-martini">
+			<h3>Martini</h3>
 			<ul class="ps-3">
-				<li>Prepare <a href="#define-meatballs">meatballs</a>.</li>
+				<li><span class="og-oz">2½ oz.</span><span class="og-ml">75 mL</span> dry gin</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> dry vermouth</li>
+				<li>1 dash orange bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">1 or 3 olives for garnish</li>
 			</ul>
-			<h4>Brown Meat</h4>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>This recipe is a "dry" martini:</p>
+				<ul class="ps-3">
+					<li><strong>50/50 Martini:</strong> Use <span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> dry gin and <span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> vermouth.</li>
+					<li><strong>Dirty Martini:</strong> Omit bitters; add <span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> olive brine; consider substituting vodka for dry gin;</li>
+					<li><strong>Gibson Martini:</strong> Omit olives; 1 or 3 cocktail onions for garnish</li>
+					<li><strong>Perfect Martini:</strong> Use <span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> dry gin and <span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> dry vermouth; add <span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> sweet vermouth; lemon zest for garnish</li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-martinez">
+			<h3>Martinez</h3>
 			<ul class="ps-3">
-				<li>2 lbs. braising meats (lamb neck or shank, beef short ribs, oxtails).</li>
-				<li>Some Italian sausage</li>
-				<li>A few smashed garlic cloves</li>
-				<li>½ yellow onion, chopped</li>
-				<li class="og-do">In skillet used for <a href="#define-meatballs">meatballs</a>, remove browned onion, then brown meats with onion and garlic.</li>
-				<li class="og-do">Reserve meatballs and sausage separately from braising meats.</li>
-			</ul>
-			<h4>Sauce</h4>
-			<ul class="ps-3">
-				<li>28 oz. can whole san marzano tomatoes</li>
-				<li>29 oz. can tomato puree</li>
-				<li>Water (use to rinse each can)</li>
-				<li>6 oz. tomato paste</li>
-				<li>12&ndash;15 basil leaves (or 2 tablespoons dry basil)</li>
-				<li class="og-do">Mix ingredients in large pot with braising meats.</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Bring sauce to simmer. Stir occasionally, scraping bottom.</li>
-				<li>Add some sauce into cooled oil, and return to sauce.</li>
-				<li>Continue cook for at least 1 hour, until all meat is tender.</li>
-				<li>Add meatballs and sausage. Cook 20 minutes.</li>
-				<li>Serve with al dente angel hair pasta. Garnish with finely grated parmigiano reggiano.</li>
+				<li><span class="og-oz">1¼ oz.</span><span class="og-ml">38 mL</span> old tom gin</li>
+				<li><span class="og-oz">1¼ oz.</span><span class="og-ml">38 mL</span> sweet vermouth</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> maraschino liqueur</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> orange bitters</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">lemon zest for garnish</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-spaetzle">
-			<h3>Spaetzle</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-negroni">
+			<h3>Negroni</h3>
 			<ul class="ps-3">
-				<li>½ cup (60 g) all-purpose flour</li>
-				<li>1 large egg</li>
-				<li>½ teaspoon kosher salt</li>
-				<li>1 pinch nutmeg or cayenne pepper</li>
-				<li>1 tablespoon cream fraiche, sour cream, or yogurt</li>
-				<li>3 tablespoons milk</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> gin</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> Campari</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> sweet vermouth</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">orange zest for garnish</li>
 			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Depending on your preferred gin and vermouth, play with the ratios a little bit to find your perfect negroni.</p>
+				<ul class="ps-3">
+					<li>Substitute other spirits&mdash;for exmample, mezcal or genever for the gin.</li>
+					<li>Substitute other apertifs&mdash;for exmample, Aperol for the Campari.</li>
+					<li>Grapefruit zest makes an interesting alternative for the garnish.</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </div>
 <hr>
 
-<h2 id="protein">Protein</h2>
+<h2 id="rum">Rum</h2>
 <div class="row">
-	<div class="col-12 col-md-6">
-		<div id="define-caramel-pork-belly">
-			<h3>Caramel Pork Belly</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-cuba-libre">
+			<h3>Cuba Libre</h3>
 			<ul class="ps-3">
-				<li>10 oz. slab pork belly (Berkshire)</li>
-				<li>1 bunch scallions</li>
-				<li>salt</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> white rum</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> lime juice</li>
+				<li><span class="og-oz">4 oz.</span><span class="og-ml">120 mL</span> cola</li>
+				<li class="og-do">mix in lowball on ice&mdash;stir 5 turns</li>
+				<li class="og-do">lime wheel for garnish</li>
 			</ul>
-			<h4>Aromatics</h4>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Use a cane sugar cola if you can.</p>
+				<ul class="ps-3">
+					<li><strong>Lower ABV:</strong> Use a highball and lengthen with additinal soda.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-cheerwine">
+			<h3>Cheerwine</h3>
 			<ul class="ps-3">
-				<li>4 cloves sliced garlic</li>
-				<li>4 whole dried red chilies (unbroken)</li>
-				<li>Caramel Sauce</li>
-				<li>¼ cup packed brown sugar</li>
-				<li>2 teaspoons rice vinegar</li>
-				<li>2 teaspoons Asian fish sauce</li>
-				<li>½ teaspoon soy sauce</li>
-				<li>1 teaspoon ginger juice</li>
-				<li>½ cup water</li>
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> navy-strength rum</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> amaretto</li>
+				<li><span class="og-oz">4 oz.</span><span class="og-ml">120 mL</span> cola</li>
+				<li class="og-do">mix in lowball on ice&mdash;stir 5 turns</li>
+				<li class="og-do">float <span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> <a href="#define-grenadine">grenadine</a></li>
+				<li class="og-do">cocktail cherry for garnish</li>
 			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Salt and wrap pork belly thoroughly in foil with scallions.</li>
-				<li>Cook 200&deg; F (95&deg; C) for 5½ hours.</li>
-				<li>Remove and refrigerate overnight.</li>
-				<li>Brown on all sides before adding garlic, chiles, and sauce.</li>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Use a cane sugar cola if you can.</p>
+				<ul class="ps-3">
+					<li><strong>Lower ABV:</strong> Use a highball and lengthen with additinal soda.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-daiquiri">
+			<h3>Daiquiri</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> white rum</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> lime juice</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> demerara syrup (2:1)</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Simple perfection.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-el-presidente">
+			<h3>El Presidente</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> white rum</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> blanc vermouth </li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> Dry Curaçao or triple sec</li>
+				<li>1 barspoon <a href="#define-grenadine">grenadine</a></li>
+				<li class="og-do">stir, serve up</li>
+				<li class="og-do">orange zest and cocktail cherry for garnish</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-chicken-adobo">
-			<h3>Chicken Adobo</h3>
-			<h4>Sear</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-hemingway-daiquiri">
+			<h3>Hemingway Daiquiri</h3>
 			<ul class="ps-3">
-				<li>4 bone-in, skin-on chicken thighs or legs</li>
-				<li>Kosher salt</li>
-				<li>1&ndash;2 tablespoons (15&ndash;30 mL) neutral oil</li>
-				<li class="og-do">Season the chicken lightly with salt. Heat oil in a wok or large saucepan over medium-high heat. Sear skin side down, until nicely browned, then flip and finish browning (about 4 minutes each side).</li>
-				<li class="og-do">Remost chicken and rest. Reserve fat and fond in the pan.</li>
-			</ul>
-			<h4>Braising Liquid</h4>
-			<ul class="ps3">
-				<li>1 teaspoon black pepper plus 30&ndash;40 whole black peppercorns</li>
-				<li>15&ndash;20 whole cloves garlic, smashed</li>
-				<li>1 cup (240 mL) distilled white vinegar</li>
-				<li>⅔ cup (160 mL)soy sauce</li>
-				<li>5 oz. (145 g) brown or palm sugar</li>
-				<li>A few bay leaves</li>
-				<li class="og-do">Combine and stir.</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Add liquid and bring to boil, reduce to a bare simmer.</li>
-				<li>Add chicken (and any accumulated juices), cover, and simmer for 30 minutes.</li>
-				<li>Turn chicken, cover, and cook until fully tender.</li>
-				<li>Remove chicken to rest and reduce sauce to a thick, dark glaze.</li>
-				<li>Serve over plain white rice.</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> white rum</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> maraschino liqueur </li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lime juice</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> grapefruit juice</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">grapefruit zest and cocktail cherry for garnish&mdash;discard peel</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-chicken-wings">
-			<h3>Chicken Wings</h3>
-			<h4>Dry Brine</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-mojito">
+			<h3>Mojito</h3>
 			<ul class="ps-3">
-				<li>2 parts salt (1 teaspoon per pound)</li>
-				<li>1 part baking powder</li>
-				<li>1 part corn starch</li>
-				<li>Refrigerate uncovered for 12&ndash;24 hours.</li>
-				<li>Air fry (or convection roast) 425&deg; F for 30 min, turning and rotating pan halfway through.</li>
+				<li>10&ndash;12 mint leaves</li>
+				<li>1 tbsp. raw demerara sugar</li>
+				<li class="og-do">stir together in highball for 1 minute</li>
+				<li>½ lime, cut into four pieces</li>
+				<li class="og-do">gently muddle</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> light rum</li>
+				<li class="og-do">add ice and lengthen with soda water</li>
+				<li class="og-do">mint sprig for garnish</li>
 			</ul>
-			<h4>Buffalo Sauce</h4>
-			<ul class="ps-3">
-				<li>4 tablespoons frank's red hot sauce</li>
-				<li>4 tablespoons butter</li>
-				<li>4 cloves garlic</li>
-			</ul>
-			<h4>Teriyaki Sauce</h4>
-			<ul class="ps-3">
-				<li>1 cup water</li>
-				<li>¼ cup soy sauce</li>
-				<li>5 teaspoons packed brown sugar</li>
-				<li>1 tablespoon honey, or more to taste</li>
-				<li>½ teaspoon ground ginger</li>
-				<li>¼ teaspoon garlic powder</li>
-				<li class="og-do">Thicken with 1&ndash;2 teaspoons corn starch slurry (1 part corn starch : 1 part water)</li>
-			</ul>
-			<h4>Mango Hot Sauce</h4>
-			<ul class="ps-3">
-				<li>1 mango</li>
-				<li>½ onion, minced</li>
-				<li>2 cloves garlic, minced</li>
-				<li>juice of 1 lime</li>
-				<li>1 teaspoon sugar optional</li>
-				<li>1 teaspoon salt sea or table</li>
-				<li>4 tablespoons butter</li>
-				<li>4 tablespoons habanero hot sauce (or deseeded habanero peppers)</li>
-				<li class="og-do">Blend ingredients until smooth as desired.</li>
-			</ul>
-			<h4>Za'atar Glaze</h4>
-			<ul class="ps-3">
-				<li>1 tablespoon kosher salt</li>
-				<li>2 tablespoons <a href="#define-zaatar">za'atar</a></li>
-				<li>1½ teaspoon garlic powder</li>
-				<li>1 large egg white (or 1 tbsp mayo)</li>
-				<li>2 tablespoons honey</li>
-				<li>½ lemon, juiced</li>
-				<li>2 tablespoons olive oil</li>
-				<li class="og-do">Top with chopped parsley and dust with sumac (optional).</li>
-			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Making mojitos can be messy and time consuming. Don't over-work the mint when muddling, just get the limes juiced.</p>
+			</div>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-dashi-butter-chicken">
-			<h3>Dashi Butter Chicken</h3>
-			<h4>Marinade</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-rabo-de-gallo">
+			<h3>Rabo de Galo</h3>
 			<ul class="ps-3">
-				<li>2 large skinless, boneless chicken breasts</li>
-				<li>2 cloves garlic, finely minced</li>
-				<li>1 tablespoon finely minced pickled ginger</li>
-				<li>3 teaspoons soy sauce</li>
-				<li>3 tablespoons sake</li>
-				<li>1 teaspoon mirin</li>
-				<li>¼ teaspoon sesame oil</li>
-				<li>1 pinch cayenne pepper</li>
-				<li>½ teaspoon white sugar</li>
-				<li class="og-do">Combine garlic, pickled ginger, soy sauce, sake, mirin, sesame oil, cayenne, and sugar in a shallow dish or bag.</li>
-				<li class="og-do">Mix to combine and set aside.</li>
-				<li class="og-do">Reserve a few 2 tablespoons of marinade for sauce.</li>
-				<li class="og-do">Pound chicken breasts to uniform thickness.</li>
-				<li class="og-do">Transfer to marinade and toss to coat.</li>
-				<li class="og-do">Wrap, and refrigerate for 1 hour.</li>
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> cachaça</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> sweet vermouth</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> Cynar</li>
 			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3">
-				<li>2 tablespoons potato starch or cornstarch (optional)</li>
-				<li>3 tablespoons vegetable oil</li>
-				<li>1 cup chicken broth</li>
-				<li>2 teaspoons reserved marinade</li>
-				<li>1 teaspoon mirin</li>
-				<li>3 teaspoons rice vinegar</li>
-				<li>1 teaspoon instant dashi granules</li>
-				<li>2 teaspoons cold unsalted butter</li>
-				<li>1 teaspoon furikake, or as needed, for garnish (optional)</li>
-				<li class="og-do">Remove breasts and blot dry. Dust both sides with starch.</li>
-				<li class="og-do">Oil pan over medium-high heat until shimmering.</li>
-				<li class="og-do">Shake off excess starch from and place breasts in the pan (smooth side down).</li>
-				<li class="og-do">Cook 3 minutes, and turn heat down to medium if sizzling.</li>
-				<li class="og-do">Turn chicken over for about 3 minutes, and turn over again.</li>
-				<li class="og-do">Cook 1 minute more, until chicken is no longer pink and juices run clear (165&deg; F  or 74&deg;C).</li>
-				<li class="og-do">Remove to plate, and place uncovered in a warm oven while making sauce.</li>
-				<li class="og-do">Pour off any excess oil from the pan, and place over high heat.</li>
-				<li class="og-do">Add chicken broth, 2 tablespoons of marinade, mirin, rice vinegar, and dashi granules and bring to boil, stirring occasionally.</li>
-				<li class="og-do">Reduced sauce and remove from heat.</li>
-				<li class="og-do">Add butter.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-fried-chicken">
-			<h3>Fried Chicken</h3>
-			<h4>Brine</h4>
-			<ul class="ps-3">
-				<li>1¼ cup buttermilk per pound of chicken</li>
-				<li class="og-do">Add salt (1 teaspoon per pound of meat), pepper, cayenne, and hot sauce to taste.</li>
-				<li class="og-do">Brine for 12&ndash;24 hours.</li>
-			</ul>
-			<h4>Dredge</h4>
-			<ul class="ps-3">
-				<li>3 flour : 1 corn starch</li>
-				<li>Fry at 350&deg; F</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-gambas-al-ajillo">
-			<h3>Gambas Al Ajillo</h3>
-			<h4>Prepare</h4>
-			<ul class="ps-3">
-				<li>1 pound (21&ndash;25 per pound or larger)</li>
-				<li>1 teaspoon kosher salt</li>
-				<li>1 teaspoon hot, smoked paprika, optional</li>
-				<li>¼ cup extra virgin olive oil</li>
-				<li>4 cloves peeled garlic, sliced thin</li>
-				<li>2 tablespoons dry sherry (or white wine and a pinch of sugar)</li>
-				<li>1 tablespoon chopped Italian parsley</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Peel, devein, and dry shrimp (remove tails if desired).</li>
-				<li>Add salt and paprika to shrimp, and mix to coat.</li>
-				<li>Rest for 10&ndash;20 minutes.</li>
-				<li>Sautee garlic and oil over medium heat.</li>
-				<li>Add shrimp and turn up heat for 2 minues.</li>
-				<li>Add sherry, and cook for 1 minute (until sauce boils).</li>
-				<li>Add parsley and stir.</li>
-				<li>Serve over <a href="#define-pan-de-cristal">pan de cristal</a>.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-honey-glazed-ham">
-			<h3>Honey Glazed Ham</h3>
-			<h4>Roasting Pan</h4>
-			<ul class="ps-3">
-				<li>¾ cup water, or as needed</li>
-				<li>2 whole star anise</li>
-				<li>12 whole cloves, or more to taste</li>
-				<li>7 pound (3.2 kg) country-style ham</li>
-			</ul>
-			<h4>Glaze</h4>
-			<ul class="ps-3">
-				<li>1 cup firmly packed light brown sugar</li>
-				<li>¼ cup honey</li>
-				<li>2 tablespoons dijon mustard</li>
-				<li>2 tablespoons rice vinegar</li>
-				<li>1½ teaspoons freshly ground black pepper</li>
-				<li>½ teaspoon Worcestershire sauce</li>
-				<li>1 pinch cayenne pepper</li>
-				<li class="og-dp">Whisk together until thick and smooth.</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Preheat the oven to 325&deg; F (165&deg; C).</li>
-				<li>Add water, star anise, and cloves to roasting pan, and add rack.</li>
-				<li>Place ham on rack. Cut ¼-inch (½ cm) deep slashes, ½-inch (1 cm) apart across the surface, lengthwise and crosswise.</li>
-				<li>Bake for 20 minutes and make glaze.</li>
-				<li>Brush glaze all over ham and return to over.</li>
-				<li>Continue baking ham and brushing with glaze every 20 minutes, until deep golden and ham is heated through, (6&ndash;7 times, around 2½ hours).</li>
-				<li>Center of ham should be at least 145&deg; F (63&deg; C).</li>
-				<li>Run a kitchen torch over ham until glaze is crispy and caramelized (2&ndash;5 minutes).</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-meatballs">
-			<h3>Meatballs</h3>
-			<h4>Ingredients</h4>
-			<ul class="ps-3">
-				<li>one small, finely chopped yellow onion</li>
-				<li>2 lb. lean ground beef</li>
-				<li>1 teaspoon salt</li>
-				<li>½ teaspoon garlic powder</li>
-				<li>1½ teaspoon black pepper</li>
-				<li>½ cup grated romano cheese</li>
-				<li>3&ndash;4 eggs</li>
-				<li>⅓ cup milk</li>
-				<li>1 cup bread crumbs</li>
-				<li>several garlic cloves, crushed or finely chopped</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Mix all ingredients together in large bowl with hands.</li>
-				<li>Form 19&ndash;20 meatballs (2-inch diameter).</li>
-				<li>Pre-heat oil to high heat in large fry pan. Use enough oil to cover ⅓ of meatball.</li>
-				<li>Cook meatballs immediately after forming.</li>
-				<li>Turn meatballs 1&ndash;2 times, remove and set aside. Do not overcook.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-osso-bucco-milanese">
-			<h3>Osso Bucco Milanese</h3>
-			<h4>Braise</h4>
-			<ul class="ps-3">
-				<li>sofritto: ½ onion, 1 carrot, 1 celery stick, diced</li>
-				<li>½ glass white wine or vermouth</li>
-				<li>1 tablespoon tomato paste</li>
-				<li>½ can (14 oz.) peeled san marzano tomatoes (crushed)</li>
-				<li>4 cups beef broth</li>
-				<li>½&ndash;1 tablespoon flour</li>
-				<li>3 tablespoons butter</li>
-				<li>extra virgin olive oil</li>
-				<li>parsley</li>
-				<li>one lemon</li>
-				<li>garlic</li>
-				<li>polenta</li>
-				<li>salt, pepper</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3">
-				<li>Make 4&ndash;5 small incisions around the outside of each piece of meat.</li>
-				<li>In a dutch oven, heat butter and olive oil.</li>
-				<li>Add sofritto and cook (about 10 minutes).</li>
-				<li>Lightly coat meat in flour on all sides.</li>
-				<li>Add meat and wine and cook for 5&ndash;7 minutes.</li>
-				<li>Remove meat and evaporate wine.</li>
-				<li>Add tomato paste and tomatoes.</li>
-				<li>Return meat to potand salt on both sides.</li>
-				<li>Add broth until everything is covered by 1½-inches of liquid.</li>
-				<li>Simmer covered for 90 minutes, stirring occasionally.</li>
-				<li>Remove lid and reduce liquid for 30 minutes.</li>
-			</ul>
-			<h4>Polenta</h4>
-			<ul class="ps-3">
-				<li>1 part cornmeal : 5 parts water</li>
-				<li class="og-do">Mix while still cold; you can do this as early as the day before.</li>
-				<li class="og-do">Whisk out lumps.</li>
-				<li class="og-do">Add butter, olive oil, and salt to taste.</li>
-				<li class="og-do">Add grated parmigiano reggiano or pecorino romano for a creamy, cheesy polenta.</li>
-			</ul>
-			<h4>Gremolada</h4>
-			<ul class="ps-3">
-				<li>3&ndash;4 tablespoons extra virgin olive oil</li>
-				<li>skin of lemon (finely chopped or zested)</li>
-				<li>parsley (finely chopped)</li>
-				<li>garlic (finely chopped)</li>
-				<li class="og-do">Mix using mortar and pestle.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-pan-seared-shrimp-with-peanuts-black-papper-and-lime">
-			<h3>Pan-Seared Shrimp with Peanuts, Black Pepper, and Lime</h3>
-			<h4>Prepare</h4>
-			<ul class="ps-3">
-			</ul>
-			<h4>Prepare Shrimp</h4>
-			<ul class="ps-3 og-do">
-				<li>1½ pound (21&ndash;25 per pound or larger)</li>
-				<li>½ teaspoon kosher salt</li>
-				<li>Peel and devein shrimp (remove tails if desired).</li>
-				<li class="og-do">Toss shrimp and salt together in bowl.</li>
-				<li class="og-do">Rest for 15&ndash;30 minutes.</li>
-			</ul>
-			<h4>Prepare Spices</h4>
-			<ul class="ps-3">
-				<li>2 teaspoons coriander seeds</li>
-				<li>1 teaspoon black peppercorns</li>
-				<li class="og-do">Grind coriander seeds and peppercorns until coarsely ground, and transfer to bowl.</li>
-				<li>1 teaspoon sugar</li>
-				<li>1 teaspoon paprika</li>
-				<li>½ teaspoon kosher salt</li>
-				<li>⅛ teaspoon red pepper flakes</li>
-				<li>1 garlic clove, minced</li>
-				<li class="og-do">Add sugar, paprika, salt, red pepper flakes, and garlic. Stir to combine.</li>
-
-			</ul>
-			<h4>Cook</h4>
-			<ul class="ps-3">
-				<li>1 tablespoon vegetable oil (for shrimp)</li>
-				<li class="og-do">Pat shrimp dry and return to bowl.</li>
-				<li class="og-do">Add oil and sugar to shrimp, toss, then place shrimp on cold 12-inch nonstick (or well-seasoned carbon-steel) skillet in single layer.</li>
-				<li class="og-do">Cook 3&ndash;4 minutes on high heat (undersides of shrimp are spotty brown, with pink edges).</li>
-				<li class="og-do">Remove skillet from heat, and quickly turn shrimp. Allow residual heat to cook shrimp for another 2 minutes, then reserve.</li>
-			</ul>
-			<h4>Finish</h4>
-			<ul class="ps-3">
-				<li>1 teaspoon vegetable oil (for spices)</li>
-				<li>1 teaspoon sugar</li>
-				<li>½ cup cilantro (or thai basil), chopped</li>
-				<li>1 tablespoon lime juice (plus a few lime wedges for serving)</li>
-				<li>3 tablespoons dry-roasted peanuts (or cashews), chopped</li>
-				<li class="og-do">Add oil and spice mixture to the same skillet, and cook over medium heat until fragrant (30 seconds).</li>
-				<li class="og-do">Remove skillet from heat and return shrimp, adding cilantro and lime juice. Toss to combine.</li>
-				<li class="og-do">Serve with a sprinkle of peanuts and lime wedges.</li>				
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-peposo">
-			<h3>Peposo</h3>
-			<ul class="ps-3">
-				<li>6 bone-in beef short ribs (8&ndash;10 oz. each)</li>
-				<li>1 tablespoon kosher salt to coat the beef</li>
-				<li>8 cloves garlic, peeled and crushed</li>
-				<li>1 tablespoon tomato paste</li>
-				<li>2 tablespoons black peppercorns, freshly crushed</li>
-				<li>1 tablespoon freshly ground black pepper</li>
-				<li>3&ndash;4 sage leaves</li>
-				<li>3&ndash;4 small sprigs rosemary</li>
-				<li>2 cups red wine (Chianti or Sangiovese)</li>
-				<li>2 bay leaves</li>
-				<li class="og-do">Salt to taste, to adjust sauce.</li>
-				<li class="og-do">Simmer on low, covered, about 3½ hours, or until fork tender, turning occasionally.</li>
-				<li class="og-do">Serve on polenta or rice.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-poulet-au-vinaigre">
-			<h3>Poulet Au Vinaigre</h3>
-			<h4>Sear and Sautee</h4>
-			<ul>
-				<li>2 teaspoons kosher salt, plus more to taste</li>
-				<li>½ teaspoon freshly ground black pepper</li>
-				<li>6 large bone-in, skin-on chicken thighs</li>
-				<li>1 tablespoon vegetable oil</li>
-				<li>½ cup diced shallots</li>
-				<li>3 cloves garlic, sliced</li>
-				<li>1 tablespoon tomato paste</li>
-			</ul>
-			<h4>Braise</h4>
-			<ul class="ps-3">
-				<li>½ cup wine vinegar</li>
-				<li>1 cup dry white wine</li>
-				<li>1 cup chicken broth</li>
-				<li class="og-do">Bake 45 minutes at 325&deg; F.</li>
-			</ul>
-			<h4>Pan Sauce</h4>
-			<ul class="ps-3">
-				<li>Remove chicken and reduce sauce.</li>
-				<li>¼ cup heavy cream</li>
-				<li>1 tablespoon cold unsalted butter</li>
-				<li>1 tablespoon minced fresh tarragon</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-salt-and-pepper-spare-ribs">
-			<h3>Salt and Pepper Spare Ribs</h3>
-			<h4>Rub</h4>
-			<ul class="ps-3">
-				<li>4 teaspoons kosher salt</li>
-				<li>1 tablespoon freshly ground black pepper</li>
-				<li>1 teaspoon freshly ground white pepper</li>
-				<li>1 teaspoon cayenne pepper</li>
-				<li>½ teaspoon garlic powder</li>
-			</ul>
-			<h4>Barbecue Sauce</h4>
-			<ul class="ps-3">
-				<li>240 mL ketchup</li>
-				<li>60 mL distilled white vinegar</li>
-				<li>40 mL dark molasses</li>
-				<li>40 g brown sugar</li>
-				<li>¼ teaspoon smoked paprika</li>
-				<li>¼ teaspoon chili powder</li>
-				<li>¼ teaspoon cayenne pepper</li>
-				<li>¼ teaspoon freshly ground black pepper</li>
-				<li>⅛ teaspoon ground allspice</li>
-				<li>⅛ teaspoon ground coriander</li>
-				<li>⅛ teaspoon ground cumin</li>
-			</ul>
-			<h4>Ribs</h4>
-			<ul class="ps-3">
-				<li>1 rack St. Louis-style pork spare ribs</li>
-				<li>2 tablespoons white vinegar</li>
-				<li>2 teaspoons Dijon mustard</li>
-			</ul>
-			<h4>Preparation (4&ndash;24 hours ahead)</h4>
-			<ul class="ps-3 og-do">
-				<li>Prepare sauce and refrigerate.</li>
-				<li>Mix rub.</li>
-				<li>Combine vinegar and Dijon mustard.</li>
-				<li>Place ribs on a foil-lined baking sheet, meat side is down.</li>
-				<li>Make a few shallow slashes every 2&ndash;3 through the membrane.</li>
-				<li>Poke 3 or 4 holes ¼" deep between each rib bone.</li>
-				<li>Brush half the mustard-vinegar mixture on, and sprinkle with about 40% of the spice rub.</li>
-				<li>Turn the rack over and brush on the rest of the mustard and vinegar mixture. Sprinkle on the rest of the rub.</li>
-				<li>Refrigerate the ribs uncovered.</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Remove ribs from refrigerator.</li>
-				<li>Preheat the oven to 300&deg; F (150&deg; C).</li>
-				<li>Cook in the center rack for 90 minutes.</li>
-				<li>Remove from the oven and baste with pan drippings.</li>
-				<li>Rotate and cook another 90 minutes (until tender, and knife slides easily).</li>
-				<li>Remove from the oven, baste again, and let rest 15 minutes before serving.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-shepherds-pie">
-			<h3>Shepherd's Pie</h3>
-			<h4>Filling</h4>
-			<ul class="ps-3">
-				<li>½ tablespoon butter</li>
-				<li>½ tablespoon olive oil</li>
-				<li>½ diced onion</li>
-				<li>1 pound (450 g) lean ground lamb</li>
-				<li>48 g flour</li>
-				<li>salt and pepper to taste</li>
-				<li>½ teaspoon paprika</li>
-				<li>pinch of cinnamon</li>
-				<li>2 teaspoons minced fresh rosemary</li>
-				<li>3 cloves minced garlic</li>
-				<li>1 tablespoon ketchup</li>
-				<li>300 mL chicken stock</li>
-				<li>85 g frozen peas</li>
-				<li>85 g diced carrots</li>
-			</ul>
-			<h4>Topping</h4>
-			<ul class="ps-3">
-				<li>550 g yukon gold potatoes</li>
-				<li>1 tablespoon butter</li>
-				<li>salt and pepper to taste</li>
-				<li>pinch of cayenne</li>
-				<li>60 g Irish cheddar</li>
-				<li>1 egg yolk beaten with 2 tablespoons milk</li>
-			</ul>
-			<h4>Bake</h4>
-			<ul class="ps-3 og-do">
-				<li>Bake at 375&deg; F for 25&ndash;30 minutes or until crust is golden-brown.</li>
-				<li>Rest 15 minutes before serving.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-shoyu-chicken">
-			<h3>Shoyu Chicken</h3>
-			<h4>Sauce</h4>
-			<ul class="ps-3">
-				<li>1 cup water</li>
-				<li>1 shallot, diced</li>
-				<li>3" ginger root, diced</li>
-				<li>6 garlic cloves, smashed</li>
-				<li>¾ cup shoyu</li>
-				<li>½ cup brown sugar</li>
-				<li>2 tablespoons rice wine vinegar</li>
-				<li>2 tablespoons mirin</li>
-				<li>2 tablespoons honey</li>
-				<li class="og-do">Refrigerate for up to 3 days ahead.</li>
-			</ul>
-			<h4>Braise</h4>
-			<ul class="ps-3">
-				<li>4&ndash;6 bone in, skin on chicken thighs</li>
-				<li class="og-do">Braise 20 minutes, flip, braise another 20 minutes.</li>
-				<li class="og-do">Broil 1&ndash;2 minutes for crispy skin (optional, watch closely).</li>
-				<li class="og-do">Reduce sauce, and thicken with 1 tablespoon corn starch slurry (1 part corn starch : 1 part water).</li>
-				<li class="og-do">Serve on white rice with diced green onions and toasted sesame seeds.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-tamagoyaki">
-			<h3>Tamagoyaki</h3>
-			<ul class="ps-3">
-				<li>3 eggs</li>
-				<li>1 teaspoon mirin</li>
-				<li>1 teaspoon soy sauce (or dashi)</li>
-				<li>2 teaspoon sugar</li>
-				<li>2 pinches salt</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-tempura">
-			<h3>Tempura</h3>
-			<h4>Shrimp</h4>
-			<ul class="ps-3 og-do">
-				<li>Peel and devein shrimp.</li>
-				<li>Make 4&ndash;5 slices across belly, then gently break the spine so they lay flat.</li>
-				<li>Pat dry and lightly cover with rice flour.</li>
-			</ul>
-			<h4>Batter</h4>
-			<ul class="ps-3">
-				<li>2 cups cold, carbonated water</li>
-				<li>1 egg (beat in gently)</li>
-				<li>1 cup flour (preferably cake flour, do not overmix)</li>
-				<li class="og-do">Dredge anything wet (like shrimp) in rice flour before batter.</li>
-				<li class="og-do">Fry in 350&deg; F neutral oil.</li>
-				<li class="og-do">Drizzle additional batter on for more crispy.</li>
-			</ul>
-			<h4>Sauce</h4>
-			<ul class="ps-3">
-				<li>2 parts dashi</li>
-				<li>1 part mirin</li>
-				<li>1 part shoyu</li>
-			</ul>
-			<h4>Sauce (alternative)</h4>
-			<ul class="ps-3">
-				<li>1 cup dashi</li>
-				<li>1 tablespoon shoyu</li>
-				<li>1 tablespoon sake</li>
-				<li>1½ teaspoon sugar</li>
-				<li>1 teaspoon salt</li>
-			</ul>
-			<h4>Self-Rising Flour</h4>
-			<ul class="ps-3">
-				<li>120 g all-purpose flour</li>
-				<li>1½ teaspoon baking powder</li>
-				<li>¼ teaspoon salt</li>
-			</ul>
-			<h4>Flour Alternative</h4>
-			<ul class="ps-3">
-				<li>1:1 flour and corn starch</li>
-				<li>pinch of hondashi</li>
-			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Cachaça is a kind of aguardiente that is like a fresh, grassy rum. If it's available in your area, give it a try!</p>
+				<p>Cynar is an arthicoke-based amaro. You could substitute it for other amari, for example, Ramazotti, Averna, or Amaro Nonino.</p>
+			</div>
 		</div>
 	</div>
 </div>
 <hr>
 
-<h2 id="sweets">Sweets</h2>
+<h2 id="sours">Sours</h2>
 <div class="row">
-	<div class="col-12 col-md-6">
-		<div id="define-apple-crisp">
-			<h3>Apple Crisp</h3>
-			<h4>Topping</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-amaretto-sidecar">
+			<h3>Amaretto Sidecar</h3>
 			<ul class="ps-3">
-				<li>2 cups old-fashioned rolled oats</li>
-				<li>½ cup (70 g) all-purpose flour</li>
-				<li>⅓ cup (75 g) granulated sugar</li>
-				<li>⅓ cup (75 g) demerara sugar</li>
-				<li>1 teaspoon kosher salt</li>
-				<li>1 teaspoon ground cinnamon</li>
-				<li>12 tablespoons unsalted butter, cut into ½-inch pieces</li>
-				<li class="og-do">Work butter into mixture until uniformly combined.</li>
-				<li class="og-do">Refrigerate until assembly.</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> amaretto</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> Cointreau</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> ounce lemon juice</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">orange zest for garnish</li>
 			</ul>
-			<h4>Filling</h4>
+		</div>
+		<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+			<p>You can substitute Grand Marnier or Triple Sec for Cointreau.</p>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-amaretto-sour">
+			<h3>Amaretto Sour</h3>
 			<ul class="ps-3">
-				<li>½ cup (112 g) granulated sugar</li>
-				<li>4 tablespoons unsalted butter</li>
-				<li class="og-do">Caramelize sugar in skillet.</li>
-				<li class="og-do">Remove from heat, add butter and emulsify into sugar.</li>
-				<li>3 lbs. (1,300 g) apples (6&ndash;7 medium apples) peeled, cut into wedges</li>
-				<li>2 teaspoons vanilla extract</li>
-				<li>2 tablespoons (or a generous splash) of heavy cream</li>
-				<li class="og-do">Cook on medium heat until apples soften and start to turn translucent and juices reduce.</li>
-				<li class="og-do">Add 1 tablespoon cornstarch slurry (1 part cornstarch : 1 part water) if needed.</li>
-			</ul>
-			<h4>Bake</h4>
-			<ul class="ps-3 og-do">
-				<li>Bake on center rack at 350&deg; F for 45 minutes.</li>
-				<li>Let cool, but not completely.</li>
-				<li>Serve warm with a scoop of vanilla ice cream.</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> lemon juice</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> egg white (or aquafaba)</li>
+				<li class="og-do">dry shake</li>
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> amaretto</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> bourbon</li>
+				<li><span class="og-oz">⅓ oz.</span><span class="og-ml">10 mL</span> <a href="#define-simple-syrup">simple syrup</a> (1:1)</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">serve on ice in lowball</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-burnt-basque-cheesecake">
-			<h3>Burnt Basque Cheesecake</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-averna-sour">
+			<h3>Averna Sour</h3>
 			<ul class="ps-3">
-				<li>1 tablespoon soft unsalted butter, or as needed to grease parchment paper</li>
-				<li>16 oz. (450 g) cream cheese, softened to room temperature</li>
-				<li>8 oz. (225 g) goat cheese</li>
-				<li>1 cup manchego cheese, grated</li>
-				<li>1 cup (225 g) white sugar	</li>
-				<li>3 tablespoons all-purpose flour</li>
-				<li>½&ndash;1 teaspoon fine salt</li>
-				<li>½ teaspoon vanilla extract</li>
-				<li>4&ndash;5 large eggs, at room temperature (+1 more egg yolk)</li>
-				<li>1¼ cups heavy cream</li>
-				<li class="og-do">Pour batter into 9-inch springform cake pan.</li>
-				<li class="og-do">Bake 40&ndash;50 minutes at 425&ndash;475&deg; F.</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lemon juice</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> egg white (or aquafaba)</li>
+				<li class="og-do">dry shake</li>
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> Averna</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> bourbon</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> <a href="#define-simple-syrup">simple syrup</a> (1:1)</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">serve on ice in lowball</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-chili-chocolate-crinkle-cookies">
-			<h3>Chili Chocolate Crinkle Cookies</h3>
-			<h4>Dry Ingredients</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-aviation">
+			<h3>Aviation</h3>
 			<ul class="ps-3">
-				<li>¾ cup (105 g) all-purpose flour</li>
-				<li>2 teaspoons Saigon cinnamon</li>
-				<li>1 teaspoon ancho chili powder</li>
-				<li>½ teaspoon baking powder</li>
-				<li>¼ teaspoon salt</li>
-				<li class="og-do">Mix and set aside.</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> dry gin</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> crème de violette</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> maraschino liqueur</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> lemon juice</li>
+				<li class="og-do">stir</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">cocktail cherry and lemon zest for garnish</li>
 			</ul>
-			<h4>Wet Ingredients</h4>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>It's unusual to stir a cocktail with citrus juice in it, but this one works&mdash;and it's a relatively small amount.</p>
+				<p>You can shake this cocktail if you prefer, but the result will be greyer in color and lighter in texture, like an overcast day.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-bees-knees">
+			<h3>Bee's Knees</h3>
 			<ul class="ps-3">
-				<li>227 g (8 oz.) semi-sweet chocolate</li>
-				<li>¼ cup butter, softened</li>
-				<li>½ cup (112 g) granulated sugar</li>
-				<li>¼ cup (56 g) brown sugar</li>
-				<li>2 eggs</li>
-				<li>Sea salt (for garnish)</li>
+				<li><span class="og-oz">1⅔ oz.</span><span class="og-ml">50 mL</span> gin</li>
+				<li><span class="og-oz">⅔ oz.</span><span class="og-ml">20 mL</span> <a href="#define-honey-syrup">honey syrup</a></li>
+				<li><span class="og-oz">⅔ oz.</span><span class="og-ml">20 mL</span> lemon juice</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">lemon zest for garnish</li>
 			</ul>
-			<h4>Process</h4>				
-			<ul class="ps-3 og-do">
-				<li>Preheat oven to 375&deg; F.</li>
-				<li>Melt chocolate and set aside.</li>
-				<li>In stand mixer, cream butter, granulated sugar, and brown sugar.</li>
-				<li>Slowly add chocolate, mixing on low speed.</li>
-				<li>Add dry ingredients and mix to combine.</li>
-				<li>Drop 1½ tablespoon sized cookies onto parchment lined cookie sheet.</li>
-				<li>Crosshatch each top with a fork, and sprinkle a small amount of sea salt on each.</li>
-				<li>Bake 11 minutes (rotate pan halfway through).</li>
-				<li>Remove and let cool 5 minutes before removing from baking sheet.</li>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<ul class="ps-3">
+					<li><strong>Honeysuckle:</strong> Substitute light rum for the gin.</li>
+					<li><strong>Honey Bee:</strong> Substitute dark rum for the gin.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-corpse-reviver-no-2">
+			<h3>Corpse Reviver &numero;2</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> dry gin</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> blanc vermouth</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> orange liqueur</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lemon juice</li>
+				<li class="og-do">absinthe rinse</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-chocolate-chip-cookies">
-			<h3>Chocolate Chip Cookies</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-cucumber-elderflower-gin-smash">
+			<h3>Cucumber-Elderflower Gin Smash</h3>
 			<ul class="ps-3">
-				<li>2½ cups (300 g) all-purpose flour</li>
-				<li>½ teaspoon baking soda</li>
-				<li>½ teaspoon salt</li>
-				<li>1 cup. shortening (don't use butter, it's just not the same)</li>
-				<li>¾ cup (160 g) brown sugar (packed)</li>
-				<li>¾ cup (150 g) sugar</li>
-				<li>2 eggs</li>
-				<li>1 teaspoon vanilla</li>
-				<li>1½ cups chocolate chips</li>
-				<li>1½ cups chopped walnuts (optional)</li>
-				<li class="og-do">Combine dry ingredients in a medium bowl.</li>
-				<li class="og-do">In a large bowl, cream sugars and shortening together until fluffy.</li>
-				<li class="og-do">Add eggs and vanilla.</li>
-				<li class="og-do">Stir in flour mixture and then add the chocolate chips and walnuts.</li>
-				<li class="og-do">Drop spoonfuls onto a cookie sheet (or roll out a 1" sphere by hand).</li>
-				<li class="og-do">Bake at 350&deg; F for 12&ndash;15 minutes (be watchful, I don't know your oven).</li>
-				<li class="og-do">Remove from oven and let cool before serving.</li>
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> gin</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> Cointreau</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> elderflower liqueur</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lemon juice</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve on ice</li>
+				<li class="og-do">4&ndash;5 thinly sliced cucumber coins for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Depending on how sharp your knife&mdash;and knife skills&mdash; are, you might find it easier to get thin slices of cucumber with your citrus peeler.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-elderflower-martini">
+			<h3>Elderflower Martini</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> gin</li>
+				<li>6 thinly sliced cucumbers wheels, muddled</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> elderflower liqueur</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> lemon juice</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-cinnamon-rolls">
-			<h3>Cinnamon Rolls</h3>
-			<h4>Dough</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-french-gimlet">
+			<h3>French Gimlet</h3>
 			<ul class="ps-3">
-				<li>120 g (1 cup) all-purpose flour</li>
-				<li>1 tablespoon granulated sugar</li>
-				<li>1 teaspoon instant yeast</li>
-				<li>½ teaspoon table salt</li>
-				<li>76 g (⅓ cup) milk (warm)</li>
-				<li>28 g (2 tablespoons) unsalted butter (room temperature)</li>
-				<li>½ teaspoon vanilla extract</li>
-				<li class="og-do">Combine with pastry cutter or bench knife, then knead until smooth, let rise 45&ndash;60 minutes.</li>
-			</ul>
-			<h4>Filling</h4>
-			<ul class="ps-3">
-				<li>40 g (3 tablespoons) light brown sugar or dark brown sugar, packed</li>
-				<li>2 teaspoons all-purpose flour</li>
-				<li>½ teaspoon Vietnamese cinnamon (or ¾ teaspoon ceylon)</li>
-				<li>pinch table salt</li>
-				<li>1&ndash;2 tablespoons milk</li>
-				<li class="og-do">Roll out dough into 4&times;10-inch rectangle.</li>
-				<li class="og-do">Brush with milk and apply filling, then divide into two strips and roll them up.</li>
-				<li class="og-do">Let finished rolls rise another 45&ndash;60 minutes, or refrigerate covered overnight, and remove 30 minutes prior to baking.</li>
-				<li class="og-do">Bake 15 minutes at 375&deg; F. May take longer if refrigerated. Internal temperature should read 190&deg; F.</li>
-			</ul>
-			<h4>Icing</h4>
-			<ul class="ps-3">
-				<li>57 g (½ cup) confectioners' sugar (sift out lumps)</li>
-				<li>2&ndash;3 teaspoons milk</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> gin</li>
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> elderflower liqueur</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> lime juice</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-creme-brulee">
-			<h3>Crème Brûlée</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-gold-rush">
+			<h3>Gold Rush</h3>
 			<ul class="ps-3">
-				<li>144 mL heavy cream, scalded, with vanilla (lavender optional)</li>
-				<li class="og-do">Scald cream and vanilla, then let cool and infuse for 15 minutes.</li>
-				<li>5&ndash;6 egg yolks</li>
-				<li>115 g sugar</li>
-				<li>⅛ teaspoon salt</li>
-				<li class="og-do">Add cooled cream to custard and pour into 6 oz. ramekins.</li>
-				<li class="og-do">Place ramekins in boiling water bath.</li>
-				<li class="og-do">Bake 30&ndash;40 minutes at 325&deg; F (until set, but still wobbly).</li>
-				<li class="og-do">Remove and cool until safe to retrieve from water bath, then chill for several hours.</li>
-				<li class="og-do">Top evenly with 1½ teaspoons sugar (use a brush) and gently torch it (keep flame moving).</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> bourbon</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lemon juice</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lemon juice</li>
+				<li class="og-do">dry shake</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> <a hef="#define-honey-syrup">honey syrup</a> (3:1)</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve on a rock</li>
+				<li class="og-do">orange zest for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>There are a number of <strong>After the Gold Rush</strong> variants:</p>
+				<ul class="ps-3">
+					<li>Adding ginger to the honey syrup.</li>
+					<li>Alternatively, substitute <span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> grapefruit juice and <span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> hard apple cider for the lemon juice, and garnish with grapefruit zest instead.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-green-eyes">
+			<h3>Green Eyes</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lime juice</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> egg white</li>
+				<li class="og-do">dry shake</li>
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> gin</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> Green Chartreuse</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> <a href="#define-simple-syrup">rich simple syrup</a> (2:1)</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve on a rock</li>
+				<li class="og-do">lime wedge and cocktail cherry for garnish</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-crustless-brownie-pie">
-			<h3>Crustless Brownie Pie</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-gin-basil-smash">
+			<h3>Gin-Basil Smash</h3>
 			<ul class="ps-3">
-				<li>224 g sugar (1 cup)</li>
-				<li>70 g all-purpose flour (½ cup)</li>
-				<li>28 g cocoa (¼ cup)</li>
-				<li>224 g butter softened (½ cup)</li>
-				<li>2 eggs</li>
-				<li>1 teaspoon vanilla extract</li>
-				<li>pinch of salt</li>
-				<li class="og-do">Combine all ingredients.</li>
-				<li class="og-do">Spread batter evenly in a buttered 9-inch glass pie plate.</li>
-				<li class="og-do">Bake at 325&deg; F for 40&ndash;45 minutes or until wooden pick inserted in center comes out clean.</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> gin</li>
+				<li>6&ndash;7 basil leaves (muddled)</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lemon juice</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> <a href="#define-simple-syrup">simple syrup</a> (1:1)</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">basil sprig for garnish</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-dutch-baby">
-			<h3>Dutch Baby</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-haystack">
+			<h3>Haystack</h3>
 			<ul class="ps-3">
-				<li>3 large room temperature eggs</li>
-				<li>⅔ cup room temperature milk</li>
-				<li>½ cup flour (firmly packed)</li>
-				<li>¼ teaspoon vanilla extract</li>
-				<li>¼ tablespoon salt</li>
-				<li>3 tablespoons clarified butter</li>
-				<li>nutmeg, cinnamon (optional)</li>
-				<li class="og-do">Pour batter into 10-inch cast iron skillet.</li>
-				<li class="og-do">Bake 20&ndash;25 minutes at 425&deg; F.</li>
-				<li class="og-do">Garnish with melted butter, fresh lemon juice, powdered sugar, and fresh berries.</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> bourbon</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> Suze</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> apricot liqueur</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> lemon juice</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">lemon zest for garnish</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-oatmeal-cookies">
-			<h3>Oatmeal Cookies</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-japanese-cocktail">
+			<h3>Japanese Cocktail</h3>
 			<ul class="ps-3">
-				<li>1 cup shortening</li>
-				<li>1 cup (213 g) brown sugar</li>
-				<li>1 cup (198 g) white sugar</li>
-				<li>2 large eggs, well beaten</li>
-				<li>1 tablespoon vanilla extract</li>
-				<li>1½ cups (180 g) all-purpose flour</li>
-				<li>1 teaspoon kosher salt</li>
-				<li>1 teaspoon baking soda</li>
-				<li>1 tablespoon cinnamon</li>
-				<li>1 tablespoon water</li>
-				<li>1 cup raisins, optional</li>
-				<li>¾ cup chopped walnuts (or ½ cup if adding raisins)</li>
-				<li>3 cups old-fashioned rolled oats</li>
-				<li class="og-do">Preheat the oven to 350&deg; F</li>
-				<li class="og-do">Beat together the shortening, brown sugar, and white sugar. Add the eggs and vanilla extract, and beat well.</li>
-				<li class="og-do">Whisk together the flour, salt, baking soda, and cinnamon.</li>
-				<li class="og-do">Add to sugar and egg mixture and mix well.</li>
-				<li class="og-do">Add water.</li>
-				<li class="og-do">Add raisins (if using) and nuts.</li>
-				<li class="og-do">Add oats.</li>
-				<li class="og-do">Spoon out by heaping tablespoonfuls on to greased cookie sheets.</li>
-				<li class="og-do">Bake at 350&deg; F for 10 minutes.</li>
-				<li class="og-do">Set aside on a wire rack to cool.</li>
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> cognac</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> <a href="#define-orgeat">orgeat</a></li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lemon juice</li>
+				<li>2 dashes Peychaud's bitters</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>This recipe is a modification to the orignal Japanese Cocktail recipe.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-juliet-and-romeo">
+			<h3>Juliet &amp; Romeo</h3>
+			<ul class="ps-3">
+				<li>3 slices cucumber, small pinch of salt (muddled)</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lime juice</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span>  egg white (or aquafaba)</li>
+				<li class="og-do">dry shake</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> dry gin</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> <a href="#define-simple-syrup">simple syrup</a> (1:1)</li>
+				<li>4 drops rose water</li>
+				<li>1 sprig of mint leaves</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">mint leaf with 1 drop of rose water and 3 drops Angostura bitters for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>If you have an atomizer, use it to spritz the Angostura bitters over the top.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-kentucky-flyer">
+			<h3>Kentucky Flyer</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> rye</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> maraschino liqueur </li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> lemon juice</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">mint sprig and 2 cocktail cherries for garnish</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-pancakes">
-			<h3>Pancakes</h3>
-			<h4>Dry</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-kentucky-maid">
+			<h3>Kentucky Maid</h3>
 			<ul class="ps-3">
-				<li>420 g all-purpose flour</li>
-				<li>56 g granulated sugar</li>
-				<li>1 tablespoon baking powder</li>
-				<li>1½ teaspoon salt</li>
-				<li>1½ teaspoon baking soda</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> bourbon</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> elderflower liqueur</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lemon juice</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> <a href="#define-simple-syrup">simple syrup</a> (1:1)</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">2&ndash;3 thin cucumber slices for garnish</li>
 			</ul>
-			<h4>Wet</h4>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p><strong>Irish Maid:</strong> Substitute Irish whisky for the bourbon.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-last-word">
+			<h3>The Last Word</h3>
 			<ul class="ps-3">
-				<li>2¼ cups milk</li>
-				<li>¼ cup vegetable oil</li>
-				<li>1 tablespoon vanilla extract</li>
-				<li>¼ cup apple cider vinegar</li>
-				<li>3 eggs</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> dry gin</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> Green Chartreuse</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> maraschino liqueur</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lime juice</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
 			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Mix dry and wet ingredients. do not overmix.</li>
-				<li>Cook on salted, whipped butter.</li>
-				<li>Wait until bubbles on top are popping to flip.</li>
-				<li>Serve with salted, whipped butter and maple syrup.</li>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Green Chartreuse is harder to find than ever, but the Last Word remains a great template for experimenting with diferent spirits and citrus in equal parts.</p>
+				<p><strong>Last of the Oaxacans:</strong> Substitute mezcal for the gin.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-late-night-reviver">
+			<h3>Late Night Reviver</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> gin</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> fernet</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> <a href="#define-ginger-syrup">ginger syrup</a></li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> lime juice</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-pound-cake">
-			<h3>Pound Cake</h3>
-			<h4>Blend Wet Ingredients</h4>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-mai-tai">
+			<h3>Mai Tai</h3>
 			<ul class="ps-3">
-				<li>392 g granulated sugar (1¾ cup)</li>
-				<li>1 cup Crisco</li>
-				<li>1 teaspoon Vanilla extract</li>
-				<li>5 large eggs (or 6 if smaller), beat in one at a time</li>
-				<li class="og-do">Easy work with a hand-held electric mixer.</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> dark rum </li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> lime juice</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> orange liqueur</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> <a href="#define-orgeat">orgeat</a></li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> rich demerara sugar syrup</li>
+				<li class="og-do">wet shake, pour directly into lowball, ice included</li>
+				<li class="og-do">spent lime husk and mint sprig for garnish</li>
 			</ul>
-			<h4>Combine Dry Ingredients</h4>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p><strong>Honi Honi:</strong> Substitute bourbon for the dark rum.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-margarita">
+			<h3>Margarita</h3>
 			<ul class="ps-3">
-				<li>½ teaspoon salt</li>
-				<li>280 g (2 cups) flour</li>
-				<li class="og-do">Use spatula at rim, don't overwork the batter.</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> reposado tequila</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> orange liqueur</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> lime juice</li>
+				<li class="og-do">rim glass with coarse salt</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">lime wedge or wheel for garnish</li>
 			</ul>
-			<h4>Assemble</h4>
-			<ul class="ps-3 og-do">
-				<li>Lightly grease a center-hole cake pan with 1 teaspoon Crisco (or butter) and flour, or line the inside with parchment paper.</li>
-				<li>Pour batter into in.</li>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Margaritas are versatile:</p>
+				<ul class="ps-3">
+					<li>Try a variety of orange liqueurs&mdash;for example, triple sec, Dry Curaçao, or Cointreu.</li>
+					<li>If bourbon is your favorite whiskey, substitute mezcal for the tequila.</li>
+					<li>If you enjoy a spicy things, muddle in a serrano pepper, and use Tajín for the salt rim.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-margarita-de-pomelo">
+			<h3>Margarita de Pomelo</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> reposado tequila</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> orange liqueur</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lime juice</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> grapefruit juice</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> <a href="#define-ginger-syrup">ginger syrup</a></li>
+				<li class="og-do">rim glass with coarse salt</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">candied ginger and lime wheel for garnish</li>
 			</ul>
-			<h4>Bake</h4>
-			<ul class="ps-3 og-do">
-				<li>Bake 50 minutes at 325&deg; F (55 minutes if oven not preheated, less time in convection oven).</li>
-				<li>Cool in pan for at least 10 minutes before turning cake out. Best when eaten warm, but this cake will last a week on your counter if kept covered or wrapped.</li>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Perfect for a special occasion.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-midnight-stinger">
+			<h3>Midnight Stinger</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> bourbon</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> fernet</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lemon juice</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> <a href="#define-simple-syrup">simple syrup</a> (1:1)</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve on crushed ice in lowball</li>
+				<li class="og-do">mint sprig for garnish</li>
 			</ul>
-			<h4>Icing (optional)</h4>
-			<ul class="ps-3 og-do">
-				<li>You can add frosting on top of the cake after it cools by mixing a tablespoon or so of milk with what will feel like more powdered sugar than you could have possibly imagined. Add it a little bit at a time, whisking until it dissolves before adding any more. You want frosting thick enough that it won't be completely runny when you drizzle it onto the cake with a spoon.</li>
-				<li>If you like lemon flavor, add the zest 1 lemon into the batter, and squeeze the juice out into a small bowl instead of milk to make the icing. Meyer lemons are especially good for this.</li>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>This is the ideal way to try fernet if you are a bourbon lover&mdash;like sweet tea in summer.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-moonlight">
+			<h3>Moonlight</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> dry gin</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> Cointreau</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> creme de violette</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> lime juice</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>This is the ideal way to try fernet if you are a bourbon lover&mdash;like sweet tea in summer.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-nedry">
+			<h3>Nedry</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> single malt scotch</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> amaretto</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> lemon juice</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> lime juice</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>We got an original cocktail over here! See? Nobody cares.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-oaxacanite">
+			<h3>Oaxacanite</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> mezcal</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> blanco tequila</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> <a hef="#define-honey-syrup">honey syrup</a> (3:1)</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lime juice</li>
+				<li>2 dashes Angostura bitters</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">grapefruit zest for garnish</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-pumpkin-pie">
-			<h3>Pumpkin Pie</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-pegu-club">
+			<h3>Pegu Club</h3>
 			<ul class="ps-3">
-				<li>1 can (15 oz.) pureed pumpkin</li>
-				<li>1½ cups (1 can or 12 fl. oz.) evaporated milk</li>
-				<li>¾ cup (150 g) granulated sugar</li>
-				<li>½ teaspoon salt</li>
-				<li>1 teaspoon ground cinnamon</li>
-				<li>½ teaspoon ground ginger</li>
-				<li>¼ teaspoon ground cloves</li>
-				<li>2 large eggs</li>
-				<li>1 unbaked 9-inch (4 cup volume) deep-dish pie shell</li>
-				<li class="og-do">Mix dry ingredients in small bowl.</li>
-				<li class="og-do">Beat eggs in large bowl.</li>
-				<li class="og-do">Stir in pumpkin and dry ingredients mixture.</li>
-				<li class="og-do">Gradually stir in milk.</li>
-				<li class="og-do">Pour into pie shell.</li>
-				<li class="og-do">Bake in preheated 425 degrees oven for 15 minutes.</li>
-				<li class="og-do">Reduce temperature to 350&deg; F, and  bake for 30&ndash;40 minutes or until knife inserted near center comes out clean (when just the middle 2&ndash;3" section is just a bit wiggly, remove the pie from the oven, it will finish baking as it cools).</li>
-				<li class="og-do">Cool on wire rack for 2 hours.</li>
-				<li class="og-do">Serve immediately (preferably with whipped cream or a scoop of vanilla ice cream) or refrigerate.</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> dry gin</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> orange curaçao</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> lime juice</li>
+				<li>1 dash Angostura bitters</li>
+				<li>1 dash orange bitters</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
 			</ul>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-skillet-cookie">
-			<h3>Skillet Cookie</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-penicillin">
+			<h3>Penicillin</h3>
 			<ul class="ps-3">
-				<li>12 tablespoons unsalted butter</li>
-				<li>¾ cup packed (149 g) dark brown sugar</li>
-				<li>½ cup (99 g) granulated sugar</li>
-				<li>2 teaspoons vanilla extract</li>
-				<li>1 teaspoon salt</li>
-				<li>1 large egg plus 1 large yolk</li>
-				<li>1¾ cups (248 g) all-purpose flour</li>
-				<li>½ teaspoon baking soda</li>
-				<li>1 cup (170 g) semisweet chocolate chips</li>
-				<li class="og-do">Melt 9 tablespoons butter in 12-inch cast-iron skillet over medium heat. Continue to cook, stirring constantly, until butter is dark golden brown, has nutty aroma, and bubbling subsides, about 5 minutes; transfer to large bowl. Stir remaining 3 tablespoons butter into hot butter until completely melted.</li>
-				<li class="og-do">Whisk brown sugar, granulated sugar, vanilla, and salt into melted butter until smooth. Whisk in egg and yolk until smooth, about 30 seconds. Let mixture sit for 3 minutes, then whisk for 30 seconds. Repeat process of resting and whisking 2 more times until mixture is thick, smooth, and shiny.</li>
-				<li class="og-do">Whisk flour and baking soda together in separate bowl, then stir flour mixture into butter mixture until just combined, about 1 minute. Stir in chocolate chips, making sure no flour pockets remain.</li>
-				<li class="og-do">Wipe skillet clean with paper towels.</li>
-				<li class="og-do">Transfer dough to now-empty skillet and press into even layer with spatula.</li>
-				<li class="og-do">Bake 20 minutes at 375&deg; F (upper-middle position, rotate skillet halfway through).</li>
-				<li class="og-do">Transfer skillet to wire rack and let cookie cool for 30 minutes before serving.</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> scotch</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lemon juice</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> <a hef="#define-honey-syrup">honey syrup</a> (3:1)</li>
+				<li>3&ndash;4 ginger slices, muddled</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">float <span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> Islay single malt scotch</li>
+				<li class="og-do">candied ginger for garnish</li>
 			</ul>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-queens-park-hotel-super-cocktail">
+			<h3>Queen's Park Hotel Super Cocktail</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> blended rum</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> sweet vermouth</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> <a href="#define-grenadine">grenadine</a></li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> lime juice</li>
+				<li>2 dashes Angostura bitters</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-satans-whiskers">
+			<h3>Satan's Whiskers</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> gin</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> dry vermouth</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> sweet vermouth</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> Grand Marnier</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> orange juice</li>
+				<li>1 dash orange bitters</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">orange zest for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>This recipe is "straight whiskers".</p>
+				<p><strong>Curled Whiskers:</strong> Subtitute Dry Curaçao for Grand Marnier</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-scofflaw">
+			<h3>Scofflaw</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> rye</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> dry vermouth</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> lemon juice</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> <a href="#define-grenadine">grenadine</a></li>
+				<li>2 dashes orange bitters</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">orange zest for garnish</li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-see-no-evil">
+			<h3>See No Evil</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> mezcal</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> <a href="#define-orgeat">orgeat</a></li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lime juice</li>
+				<li>3 dashes Tabasco</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve on crushed ice in lowball</li>
+				<li class="og-do">float 4&ndash;5 dashes Angostura bitters</li>
+				<li class="og-do">grated nutmeg and mint sprig for garnish</li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-sidecar">
+			<h3>Sidecar</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> cognac</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> orange liqueur</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> lemon juice</li>
+				<li>granulated sugar for rim</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">lemon zest for garnish</li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-tommys-margarita">
+			<h3>Tommy's Margarita</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> blanco tequila</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> lime juice</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> agave nectar</li>
+				<li class="og-do">rim glass with coarse salt</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">serve however you like</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>A sweeter margarita&mdash;some might prefer to omit the salt rim.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-trinidad-sour">
+			<h3>Trinidad Sour</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> Angostura bitters</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> rye whiskey</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> <a href="#define-orgeat">orgeat</a></li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lemon juice</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">serve up</li>
+				<li class="og-do">mint sprig for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Careful portioning out all those bitters, they can stain things.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-whiskey-smash">
+			<h3>Whiskey Smash</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> bourbon</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> <a href="#define-simple-syrup">simple syrup</a> (2:1)</li>
+				<li>4 lemon slices (de-seeded and muddled)</li>
+				<li>4&ndash;8 mint leaves</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">lemon wheel and mint sprig for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Like the <a href="#define-old-fashioned">Old Fashioned</a>, the smash is extremely versatile. Use it any fruit, citrus, spirit, and herb combination that pleases you&mdash;see the <a href="#define-gin-basil-smash">Gin Basil Smash</a> and <a href="#define-cucumber-elderflower-gin-smash">Cucumber-Elderflower Gin Smash</a>!</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-whiskey-daisy">
+			<h3>Whiskey Daisy</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> bourbon</li>
+				<li><span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> rye</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lemon juice</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> <a href="#define-simple-syrup">simple syrup</a> (1:1)</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> <a href="#define-orgeat">orgeat</a></li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-whiskey-sour">
+			<h3>Whiskey Sour</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lemon juice</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> egg white (or aquafaba)</li>
+				<li class="og-do">dry shake</li>
+				<li><span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> bourbon </li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> <a href="#define-simple-syrup">simple syrup</a> (1:1)</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve on ice in lowball</li>
+				<li class="og-do">orange zest and 3 drops Angostura bitters for garnish</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>If you have an atomizer, use it to spritz the Angostura bitters over the top.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-white-lady">
+			<h3>White Lady</h3>
+			<ul class="ps-3">
+				<li><span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> gin</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> orange liqueur</li>
+				<li><span class="og-oz">¾ oz.</span><span class="og-ml">22 mL</span> lemon juice</li>
+				<li><span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> <a href="#define-simple-syrup">simple syrup</a> (1.5:1)</li>
+				<li><span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> egg white</li>
+				<li class="og-do">dry shake</li>
+				<li class="og-do">wet shake</li>
+				<li class="og-do">double strain</li>
+				<li class="og-do">serve up</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>A versatile cocktail to find your favorite combination of gin and orange liqueur!</p>
+			</div>
 		</div>
 	</div>
 </div>
 <hr>
+<!--
+<h2 id="sparklers">Sparklers</h2>
+OLD CUBAN
+<span class="og-oz">1½ oz.</span><span class="og-ml">45 mL</span> aged rum
+¾ oz. lime juice
+½ oz <a href="#define-simple-syrup">simple syrup</a> (1.5:1)
+2&ndash;3 dashes Angostura Bitters
+6&ndash;8 mint leaves
+<span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> sparkling wine
+*mint leaf for garnish*
 
-<h2 id="vegetables">Vegetables</h2>
-<div class="row">
-	<div class="col-12 col-md-6">
-		<div id="define-butternut-squash-soup">
-			<h3>Butternut Squash Soup</h3>
-			<h4>Ingredients</h4>
-			<ul class="ps-3">
-				<li>1 medium-sized butternut squash</li>
-				<li>1 medium yellow onion</li>
-				<li>2&ndash;3 carrots</li>
-				<li>2 teaspoon olive oil</li>
-				<li>2 teaspoons butter</li>
-				<li>1 celery rib</li>
-				<li>A few garlic cloves, minced</li>
-				<li>A little ginger, grated or minced</li>
-				<li>1 large green apple</li>
-				<li>4 cups poultry stock</li>
-				<li>½ cup white wine (or 2 oz. Calvados)</li>
-				<li>2 bay leaves</li>
-				<li>2 teaspoons nutmeg</li>
-				<li>2 teaspoons cinnamon</li>
-				<li>1 teaspoon cayenne</li>
-				<li>1 cup heavy cream</li>
-				<li>salt and pepper to taste</li>
-				<li>2 cups smoked pork (optional)</li>
-				<li>slivered almonds</li>
-				<li>bleu cheese crumbles</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Halve, deseed, peel, cube, and roast squash at 400&deg; F for 25&ndash;30 minutes. Add onion and carrot roast for half this duration if desired.</li>
-				<li>Sautee roast vegetables and celery in olive oil and butter.</li>
-				<li>Add garlic and ginger, sautee for another minute.</li>
-				<li>Add squash and apple, sautee for another few minutes.</li>
-				<li>Deglaze with white wine (or Calvados), and add poultry stock.</li>
-				<li>Bring to boil, cover and simmer for 20&ndash;30 mins (until squash is soft).</li>
-				<li>Remove bay leaves and puree.</li>
-				<li>Add heavy cream, salt, pepper, and acid to taste.</li>
-				<li><strong>Optional:</strong> Add smoked pork and allow to heat through.</li>
-				<li>Top with toasted slivered almonds or pine nuts and bleu cheese crumbles.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-eggplant-parmesean">
-			<h3>Eggplant Parmesean</h3>
-			<h4>Ingredients</h4>
-			<ul class="ps-3">
-				<li>3 small eggplants</li>
-				<li>1 can (28 oz.) whole peeled san marzano tomatos, crushed</li>
-				<li>mozzarella cheese (full fat, low moisture)</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Brown eggplant in extra virgin olive oil.</li>
-				<li>In a 10-inch skillet or smaller, Layer eggplant, tomato, cheese, basil&mdash;make at least three layers.</li>
-				<li>Bake 30 minutes at 375&deg; F.</li>
-				<li>Remove from oven and rest 5&ndash;10 minutes.</li>
-				<li>Garnish with parmigiano reggiano, fresh basil, and extra virgin olive oil and serve.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-sweet-potato-curry">
-			<h3>Sweet Potato Curry</h3>
-			<h4>Spice Mix</h4>
-			<ul class="ps-3">
-				<li>1½ teaspoon curry powder (hot if you prefer)</li>
-				<li>1½ teaspoon coriander</li>
-				<li>1 teaspoon cumin</li>
-				<li>1 teaspoon thyme (fresh or dried, your choice)</li>
-				<li>1 teaspoon turmeric</li>
-				<li>1 teaspoon garam masala</li>
-				<li>½ teaspoon cinnamon</li>
-				<li>1 pinch chilli powder (hot if you prefer)</li>
-				<li>1 pinch cardamom seeds, crushed (optional)</li>
-				<li>1 pinch fenugreek leaves, crushed (optional)</li>
-				<li>6 cloves, crushed (optional)</li>
-				<li class="og-do">Combine all spices and set aside.</li>
-			</ul>
-			<h4>Prepare</h4>
-			<ul class="ps-3">
-				<li>3 medium-sized sweet potatoes, cubed</li>
-				<li>1 red bell pepper, diced and de-seeded</li>
-				<li>1 medium-sized onion (or 2&ndash;3 shallots), diced</li>
-				<li>1 tablespoon of tomato paste</li>
-				<li>115 g dried red lentils, rinsed</li>
-				<li>2 tablespoons coconut  oil (or vegetable oil)</li>
-				<li>2 tablespoons honey (optional)</li>
-				<li>7 oz. coconut milk</li>
-				<li class="og-do">Chop vegetables and set aside.</li>
-				<li>1 tablespoon fresh ginger, grated</li>
-				<li>3 cloves garlic, crushed</li>
-				<li class="og-do">Combine ginger and garlic and set aside.</li>
-			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3">
-				<li class="og-do">In a large pot, heat oil on a medium-low heat.</li>
-				<li class="og-do">Add onions and sautee until translucent (3&ndash;5 minutes).</li>
-				<li class="og-do">Add all spices and stir for 1 minute.</li>
-				<li class="og-do">Add bell peppers and stir for 1 minute.</li>
-				<li class="og-do">Add garlic and ginger and stir for 1 minute.</li>
-				<li class="og-do">If the curry is drying, add a 1 teaspoon of oil or water.</li>
-				<li class="og-do">Add tomato paste and stir for 1 minute.</li>
-				<li class="og-do">Add sweet potatoes and and stir for 1 minute.</li>
-				<li class="og-do">Add lentils and stir for 1 minute.</li>
-				<li class="og-do">Add coconut milk (and honey, if using), and turn heat up to medium.</li>
-				<li class="og-do">Ensure all the  contents in the pot are covered in liquid, adding water or additional coconut milk.</li>
-				<li class="og-do">Cover with a lid, check and stir every few minutes.</li>
-				<li class="og-do">Continue cooking until potatoes are tender (usually around 15&ndash;20 minutes from this point).</li>
-				<li class="og-do">Add salt to taste.</li>
-				<li class="og-do">Serve atop a bowl of long grain rice.</li>
-			</ul>
-		</div>
-	</div>
-</div>
-<hr>
+CHICAGO
+<span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> cognac
+<span class="og-oz">¼ oz.</span><span class="og-ml">8 mL</span> Dry Curaçao
+2 dashes Angostura Bitters
+<span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> sparkling wine
+*orange or lemon zest for garnish*
 
-<h2 id="beverages">Beverages</h2>
-<div class="row">
-	<div class="col-12 col-md-6">
-		<div id="define-glogg">
-			<h3>Glögg (Mulled Wine)</h3>
-			<ul class="ps-3">
-				<li>1 bottle (750 mL) red wine</li>
-				<li>12 oz. (360 mL) ruby port</li>
-				<li>6 oz. (180 mL) cognac</li>
-				<li>½ cup (110 g) demerara sugar</li>
-				<li>¼ cup raisins</li>
-				<li>4 whole green cardamom pods</li>
-				<li>8 whole cloves</li>
-				<li>2 cinnamon sticks</li>
-				<li>rind of half an orange (4 swaths)</li>
-				<li class="og-do">Bring to bare simmer on stovetop, then reduce heat and steep for 10&ndash;15 minutes.</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-horchata">
-			<h3>Horchata</h3>
-			<h4>Prepare</h4>
-			<ul class="ps-3">
-				<li>1 cup uncooked, long-grain white rice</li>
-				<li>1 cinnamon stick (Mexican)</li>
-				<li>4 cups hot water</li>
-				<li class="og-do">Add rice, 2 cups of hot water, and 2 Mexican cinnamon sticks to blender.</li>
-				<li class="og-do">Blend until the rice and cinnamon sticks are roughly ground.</li>
-				<li class="og-do">Add the remaining 2 cups water and blend again.</li>
-				<li class="og-do">Pour contents into a pitcher or container with a fitted lid and refrigerate overnight.</li>
-			</ul>
-			<h4>Finish</h4>
-			<ul class="ps3">
-				<li>1½ cup milk (or almond milk)</li>
-				<li>1 teaspoons vanilla extract</li>
-				<li>½ teaspoon ground cinnamon (Vietnamese)</li>
-				<li>⅓ cups granulated sugar</li>
-				<li class="og-do">Pour the rice mixture through a fine mesh strainer or cheesecloth, into a pitcher. Discard unstrained material.</li>
-				<li class="og-do">Stir in milk, vanilla, cinnamon, and sugar. Chill until ready to serve. Stir well before serving over ice.</li>
-			</ul>
-		</div>
-	</div>
-</div>
+FRENCH 75
+<span class="og-oz">1 oz.</span><span class="og-ml">30 mL</span> gin (or cognac)
+<span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> lemon juice
+½ oz <a href="#define-simple-syrup">simple syrup</a> (1:1)
+<span class="og-oz">2 oz.</span><span class="og-ml">60 mL</span> sparkling wine
+*lemon zest for garnish*
 <hr>
+-->
+<!--
+<h2 id="sherry">Sherry</h2>
+JABBERWOCKY
+¾ oz. dry gin
+¾ oz. manzanilla sherry
+¾ oz. dry vermouth
+3 dashes orange bitters
+*lemon zest to garnish*
 
-<h2 id="make-it-yourself">Make It Yourself</h2>
+LONDON CALLING
+¾ oz. fino sherry
+¾ oz. lemon juice
+¾ oz <a href="#define-simple-syrup">simple syrup</a>
+3 dashes orange bitters
+<hr>
+-->
+<h2 id="syrups">Syrups</h2>
 <div class="row">
-	<div class="col-12 col-md-6">
-		<div id="define-baking-mix">
-			<h3>Baking Mix</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-simple-syrup">
+			<h3>Simple Syrup</h3>
 			<ul class="ps-3">
-				<li>750 g all-purpose flour</li>
-				<li>36 g baking powder</li>
-				<li>18 g salt</li>
-				<li>205 g vegetable shortening</li>
+				<li>200 g granulated sugar</li>
+				<li>200 mL water</li>
+				<li class="og-do">In a small sauce pan, combine sugar and water.</li>
+				<li class="og-do">Stir over heat until sugar is completely dissolved. Do not boil.</li>
+				<li class="og-do">Remove from heat and let cool.</li>
 			</ul>
-			<h4>Process</h4>
-			<ul class="ps-3 og-do">
-				<li>Add the flour, baking powder and salt to the bowl of a food processor.</li>
-				<li>Pulse ingredients for about 15 seconds.</li>
-				<li>Add in the vegetable shortening and pulse the processor until the mixture resembles cornmeal.</li>
-				<li>Place homemade Bisquick into an airtight container and store within the refrigerator for up to 3 months.</li>
-			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>This recipe is for simple syrup (1:1). Richer syrups offer more sweetness with less dilution:</p>
+				<ul class="ps-3">
+					<li><strong>Semi-Rich (1.5:1):</strong> Increase the sugar to 300 g.</li>
+					<li><strong>Rich (2:1):</strong> Increase the sugar to 400 g.</li>
+				</ul>
+				<p>You can infuse all kinds of things into any syrup&mdash;fruit, ginger, herbs, tea, you name it. Most things benefit from steeping up to 24 hours, but don't steep tea quite so long.</p>
+			</div>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-pernod-dressing">
-			<h3>Pernod Dressing</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-demerara-syrup">
+			<h3>Demerara Syrup</h3>
 			<ul class="ps-3">
-				<li>2 tablespoons fresh lemon or lime juice</li>
-				<li>2 tablespoons olive oil</li>
-				<li>½ teaspoon kosher salt</li>
-				<li>1 tablespoon Pernod</li>
-				<li>black pepper to taste</li>
-				<li class="og-do">Mix to combine. Keep cold for up to 7 days.</li>
+				<li>300 g demerara sugar</li>
+				<li>200 mL water</li>
+				<li class="og-do">In a small sauce pan, combine sugar and water.</li>
+				<li class="og-do">Stir over heat until sugar is completely dissolved. Do not boil.</li>
+				<li class="og-do">Remove from heat and let cool.</li>
 			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>This recipe is for a semi-rich syrup (1.5:1).</p>
+				<ul class="ps-3">
+					<li><strong>Rich (2:1):</strong> Increase the sugar to 400 g.</li>
+				</ul>
+			</div>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-poke-sauce">
-			<h3>Poke Sauce</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-ginger-syrup">
+			<h3>Ginger Syrup</h3>
 			<ul class="ps-3">
-				<li>¼ cup soy sauce</li>
-				<li>2 tablespoons seasoned rice vinegar</li>
-				<li>1 tablespoon sesame oil</li>
-				<li>2 teaspoons honey</li>
-				<li>1 teaspoon ginger, grated</li>
-				<li>1 teaspoon garlic, grated</li>
-				<li>¾ teaspoon red pepper flakes, crushed</li>
-				<li>1 teaspoon sesame seeds, for garnish (or furikake)</li>
+				<li>200 g granulated sugar</li>
+				<li>200 mL water</li>
+				<li>215 g ginger, sliced</li>
+				<li class="og-do">In a medium sauce pan, combine sugar and water.</li>
+				<li class="og-do">Stir over heat until sugar is completely dissolved. Do not boil.</li>
+				<li class="og-do">Add sliced ginger and simmer for 3&ndash;5 minutes. Remove from heat an let cool.</li>
+				<li class="og-do">Seal and steep ginger and liquid in refrigerator for 12&ndash;24 hours.</li>
+				<li class="og-do">Strain once steeping is complete.</li>
 			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Use a spoon or butter knife to peel ginger. Once peeled, slice it into thin coins.</p>
+			</div>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-wafu-dressing">
-			<h3>Wafu Dressing</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-grenadine">
+			<h3>Grenadine</h3>
 			<ul class="ps-3">
-				<li>1 tablespoon neutral oil</li>
-				<li>1 tablespoon soy sauce</li>
-				<li>1 tablespoon rice vinegar (unseasoned)</li>
-				<li>1 teaspoon sugar</li>
-				<li>1 teaspoon grated shallot</li>
-				<li>black pepper</li>
-				<li>½ teaspoon toasted white sesame seeds</li>
-				<li class="og-do">Mix to combine. Keep cold for up to 7 days.</li>
+				<li>675 g granulated sugar</li>
+				<li>475 mL pomegranate juice</li>
+				<li>1 teaspoon pomegranate molasses</li>
+				<li>½ teaspoon rose water</li>
+				<li class="og-do">In a medium sauce pan, combine sugar, pomegranate juice, and pomegranate molasses.</li>
+				<li class="og-do">Stir over heat until sugar is completely dissolved. Do not boil.</li>
+				<li class="og-do">Remove from heat.</li>
+				<li>Add rose water and stir to combine.</li>
 			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>You can buy grenadine. In most cases, it won't be nearly as good. Make the large quantity here and freeze most of it.</p>
+			</div>
 		</div>
 	</div>
-	<div class="col-12 col-md-6">
-		<div id="define-zaatar">
-			<h3>Za'atar</h3>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-honey-syrup">
+			<h3>Honey Syrup</h3>
 			<ul class="ps-3">
-				<li>2 tablespoons dried thyme (ground)</li>
-				<li>1½ tablespoons marjoram (or oregano)</li>
-				<li>1 tablespoon sumac</li>
-				<li>1 tablespoon toasted sesame seeds</li>
-				<li>1 tablespoon ground cumin</li>
-				<li>1 tablespoon black pepper</li>
-				<li>¼ teaspoon cayenne pepper</li>
+				<li>300 mL honey</li>
+				<li>100 mL water</li>
+				<li class="og-do">In a medium sauce pan, combine honey and water.</li>
+				<li class="og-do">Stir over heat until honey is completely dissolved. Do not boil.</li>
+				<li class="og-do">Remove from heat and let cool.</li>
 			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Honey pairs well with rye and scotch, but can also be quite pleasant with gin.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-orgeat">
+			<h3>Orgeat</h3>
+			<ul class="ps-3">
+				<li>675 g granulated sugar</li>
+				<li>475 mL unsweetened almond milk</li>
+				<li>1 teaspoon orange blossom water</li>
+				<li>½ teaspoon rose water</li>
+				<li>½ teaspoon almond extract</li>
+				<li class="og-do">In a medium sauce pan, combine sugar and almond milk.</li>
+				<li class="og-do">Stir over heat until sugar is completely dissolved. Do not boil.</li>
+				<li class="og-do">Remove from heat.</li>
+				<li class="og-do">Add orange blossom water, rose water, and almond extract, and stir to combine.</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Orgeat is a staple of tiki cocktails.</p>
+				<p>You might be able to buy orgeat. In most cases, it won't be nearly as good. Make the large quantity here and freeze most of it.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-spiced-demerara-syrup">
+			<h3>Spiced Demerara Syrup</h3>
+			<ul class="ps-3">
+				<li>1½ cups demerara sugar</li>
+				<li>1 cup hot water</li>
+				<li>4 cinnamon sticks</li>
+				<li>1 vanilla bean</li>
+				<li>6 whole allspice</li>
+				<li>6 whole cloves</li>
+				<li class="og-do">In a small sauce pan, combine sugar and water.</li>
+				<li class="og-do">Stir over heat until sugar is completely dissolved. Do not boil.</li>
+				<li class="og-do">Add cinnamon sticks and simmer for 2 minutes.</li>
+				<li class="og-do">Remove from heat.</li>
+				<li class="og-do">Seal and steep cinnamon and liquid in refrigerator for 6&ndash;12 hours.</li>
+				<li class="og-do">Strain once steeping is complete.</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Perfect for wintertime drinks made with bourbon or darker rums.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div id="define-saline-solution">
+			<h3>Saline Solution</h3>
+			<ul class="ps-3">
+				<li>80 mL water</li>
+				<li>20 g salt</li>
+				<li class="og-do">Bring water to boil</li>
+				<li class="og-do">Remove from heat</li>
+				<li class="og-do">Add salt and stir until dissolved</li>
+			</ul>
+			<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Use an eyedropper to add a drop of saline solution to sour cocktails, or anything that could use a tiny savory boost&mdash;try it in a dry <a href="#define-martini">Martini</a> or <a href="#define-alpine-negroni">Alpine Negroni</a>!</p>
+			</div>
 		</div>
 	</div>
 </div>
 <hr>
+<!--
+CHAI SYRUP
+12 green cardamom pods (cracked)
+10 whole cloves
+5 all spice
+1 cinnamon stick
+3 tbsp. minced or shaved ginger
+1 cup water (make a little more)
+In a sauce pan, add all the ingredients except for the sugar and hard boil.
+Reduce and let simmer until the water has reduced by about one-half, then strain and weigh the liquid.
+Add the same weight in sugar to the infused water and stir until sugar has dissolved.
+
+CREAM OF COCONUT
+1¾ cups granulated sugar
+13<span class="og-oz">½ oz.</span><span class="og-ml">15 mL</span> unsweetened full fat coconut milk (1 can)
+Pinch of salt
+In a medium sauce pan, combine sugar, coconut milk, and salt.
+Stir over heat until sugar is completely dissolved.
+That's it!
+
+HIBISCUS SYRUP
+¼ cup dried hibiscus flowers
+2 cinnamon sticks
+3 whole cloves
+2 cups simple syrup (1:1)
+In a dry saucepan, toast 2 cinnamon sticks and 3 whole cloves for 15-20 seconds.
+Add hibiscus and toast for another 30 seconds.
+Add simple syrup and simmer on low for 20 minutes.
+Remove from heat, let sit for 1 hour.
+Once cooled, filter off solids.
+Store sealed in fridge for up to 2 weeks.
+
+PASSION FRUIT SYRUP
+14 oz. frozen passion fruit pulp
+2½ cups granulated sugar
+In a medium sauce pan, combine passion fruit pulp and sugar.
+Stir over heat until sugar is completely dissolved. Remove from heat and let cool.
+
+RASPBERRY SYRUP
+¾ cup granulated sugar
+¾ cup hot water
+6 oz. (170g) raspberries
+In a small sauce pan, combine sugar and water.
+Stir over heat until sugar is completely dissolved.
+In a medium jar, lightly crush raspberries.
+Pour simple syrup over raspberries in jar.
+Seal and steep in refrigerator for up to 24 hours.
+Strain syrup with a fine mesh strainer once steeping is complete.
+
+ROSEMARY SYRUP
+Infuse 15 grams rosemary in 1 cup hot water for 5 minutes
+Add 1 cup sugar
+Stir until sugar is dissolved
+Let cool before removing rosemary
+-->
 
 <!-- content end -->
 <!-- footer -->
@@ -1833,7 +1802,8 @@
 	}
 </script>
 <script src="scripts/modeswitch.js"></script>
+<script src="scripts/unitswitch.js"></script>
 <script src="scripts/waitload.js"></script>
-<script src="scripts/og-rb-tooltips.js"></script>
+<script src="scripts/og-rr-tooltips.js"></script>
 </body>
 </html>
