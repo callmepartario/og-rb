@@ -1,4 +1,4 @@
-#  Old Gus' Recipes Book
+#  Old Gus' Recipe Book
 
 https://callmepartario.github.io/og-rb/
 
